@@ -68,9 +68,9 @@ function Header() {
 
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/about" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About us</Link>
               </li>
@@ -98,7 +98,7 @@ function Header() {
             </ul>
 
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
+            {/* <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
               </li>
@@ -110,7 +110,7 @@ function Header() {
                   </svg>                  
                 </Link>
               </li>
-            </ul>
+            </ul> */}
 
           </nav>
 
@@ -148,9 +148,9 @@ function Header() {
                 leaveEnd="opacity-0"              
               >
                 <ul className="px-5 py-2">
-                  <li>
+                  {/* <li>
                     <Link to="/pricing" className="flex text-gray-600 hover:text-gray-900 py-2">Pricing</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/about" className="flex text-gray-600 hover:text-gray-900 py-2">About us</Link>
                   </li>

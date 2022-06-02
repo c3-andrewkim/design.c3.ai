@@ -88,9 +88,9 @@ function Footer() {
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</Link>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
-              </li>
+              </li> */}
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
               </li>
@@ -152,7 +152,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; 2020 Simple. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">&copy; 2022 C3.ai All rights reserved.</div>
 
         </div>
 
