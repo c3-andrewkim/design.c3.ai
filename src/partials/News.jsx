@@ -13,11 +13,6 @@ function News() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
-          {/* Section header */}
-          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2">The most innovative businesses choose C3.AI</h2>
-          </div> */}
-
           {/* Categories */}
           <div className="mb-12 md:mb-16">
             <ul className="flex flex-wrap justify-center text-sm font-medium -m-2">
