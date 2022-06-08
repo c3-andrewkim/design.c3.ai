@@ -136,7 +136,7 @@ function animate(delta) {
 
 let capturer = new CCapture( { 
   verbose: true, 
-  framerate: 60,
+  framerate: 10,
   // motionBlurFrames: 4,
   quality: 90,
   format: 'webm',
@@ -194,7 +194,7 @@ function render(delta) {
   uniforms.u_mouse.value.x += ( newmouse.x - uniforms.u_mouse.value.x ) * divisor;
   uniforms.u_mouse.value.y += ( newmouse.y - uniforms.u_mouse.value.y ) * divisor;
   
-  uniforms.u_time.value = delta * 0.0005;
+  uniforms.u_time.value = delta * 0.0001;
   renderer.render( scene, camera );
   renderTexture();
   
