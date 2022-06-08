@@ -12,15 +12,15 @@ function Career() {
         <div className="py-12 md:py-20 border-t border-gray-200">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4 dark:text-white">C3 is growing. Grow with us.</h2>
             <p className="text-xl text-gray-600">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.
                 </p>
-          </div>
+          </div> */}
 
           {/* Team images */}
-          <div className="max-w-3xl mx-auto">
+          {/* <div className="max-w-3xl mx-auto">
             <div className="pb-12 md:pb-20">
               <div className="relative w-full h-0 pb-3/4">
                 <figure className="absolute h-auto" style={{ bottom: '9%', width: '41.7%', maxWidth: '320px' }} data-aos="fade-right">
@@ -47,7 +47,7 @@ function Career() {
                 </svg>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Job list */}
           <div className="max-w-3xl mx-auto">

@@ -57,7 +57,7 @@ function News() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <Link to="/blog-post" className="hover:underline">“How HubSpot saved 25% on developing costs by switching to C3.AI.”</Link>
+                    <Link to="/blog-post" className="hover:underline dark:text-white">“How HubSpot saved 25% on developing costs by switching to C3.AI.”</Link>
                   </h3>
                 </header>
                 <footer className="text-sm flex items-center mt-4">
@@ -69,7 +69,7 @@ function News() {
                   </div>
                   <div>
                     <span className="text-gray-600">By </span>
-                    <a className="font-medium hover:underline" href="#0">Lisa Allison</a>
+                    <a className="font-medium hover:underline dark:text-gray-600" href="#0">Lisa Allison</a>
                   </div>
                 </footer>
               </article>
@@ -93,7 +93,7 @@ function News() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <Link to="/blog-post" className="hover:underline">“How Facebook brought 13% cost savings to their bottom line with C3.AI’s products.”</Link>
+                    <Link to="/blog-post" className="hover:underline dark:text-white">“How Facebook brought 13% cost savings to their bottom line with C3.AI’s products.”</Link>
                   </h3>
                 </header>
                 <footer className="text-sm flex items-center mt-4">
@@ -105,7 +105,7 @@ function News() {
                   </div>
                   <div>
                     <span className="text-gray-600">By </span>
-                    <a className="font-medium hover:underline" href="#0">Knut Mayer</a>
+                    <a className="font-medium hover:underline dark:text-gray-600" href="#0">Knut Mayer</a>
                   </div>
                 </footer>
               </article>
@@ -129,7 +129,7 @@ function News() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <Link to="/blog-post" className="hover:underline">“How Tinder grew 115% and saved 120 Hours each week by outsourcing to C3.AI.”</Link>
+                    <Link to="/blog-post" className="hover:underline dark:text-white">“How Tinder grew 115% and saved 120 Hours each week by outsourcing to C3.AI.”</Link>
                   </h3>
                 </header>
                 <footer className="text-sm flex items-center mt-4">
@@ -141,7 +141,7 @@ function News() {
                   </div>
                   <div>
                     <span className="text-gray-600">By </span>
-                    <a className="font-medium hover:underline" href="#0">Lisa Allison</a>
+                    <a className="font-medium hover:underline dark:text-gray-600" href="#0">Lisa Allison</a>
                   </div>
                 </footer>
               </article>
