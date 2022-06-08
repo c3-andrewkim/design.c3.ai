@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Transition from '../utils/Transition';
 import Dropdown from '../utils/Dropdown';
+import LogoImage from '../images/c3aidesignlogo.svg';
 
 function Header() {
 
@@ -51,7 +52,7 @@ function Header() {
             {/* Logo */}
             <Link to="/" className="block" aria-label="design.c3.ai">
               
-              <img className="relative rounded-full" src='../images/c3aidesignlogo.svg' width="32" height="32" alt="C3 AI Design Logo" />
+              <img className="relative rounded-full" src={LogoImage} alt="C3 AI Design Logo" />
 
 
               {/* <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">

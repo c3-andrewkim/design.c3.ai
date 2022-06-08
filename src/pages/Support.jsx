@@ -133,7 +133,7 @@ function Support() {
 
               {/* Section header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                <h1 className="h1">Have a question about Simple? Contact us directly</h1>
+                <h1 className="h1">Have a question about C3.AI? Contact us directly</h1>
               </div>
 
               {/* Contact form */}
@@ -182,7 +182,7 @@ function Support() {
                   </div>
                 </div>
                 <div className="text-sm text-gray-600 mt-4">
-                  By clicking "send" you consent to allow Simple to store and process the personal information submitted above and agree to our <a className="underline" href="#0">terms and conditions</a> as well as our <a className="underline" href="#0">Privacy Policy</a>.
+                  By clicking "send" you consent to allow C3.AI to store and process the personal information submitted above and agree to our <a className="underline" href="#0">terms and conditions</a> as well as our <a className="underline" href="#0">Privacy Policy</a>.
                 </div>
               </form>
 

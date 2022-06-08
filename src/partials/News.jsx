@@ -15,7 +15,7 @@ function News() {
 
           {/* Section header */}
           {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2">The most innovative businesses choose Simple</h2>
+            <h2 className="h2">The most innovative businesses choose C3.AI</h2>
           </div> */}
 
           {/* Categories */}
@@ -62,7 +62,7 @@ function News() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <Link to="/blog-post" className="hover:underline">“How HubSpot saved 25% on developing costs by switching to Simple.”</Link>
+                    <Link to="/blog-post" className="hover:underline">“How HubSpot saved 25% on developing costs by switching to C3.AI.”</Link>
                   </h3>
                 </header>
                 <footer className="text-sm flex items-center mt-4">
@@ -98,7 +98,7 @@ function News() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <Link to="/blog-post" className="hover:underline">“How Facebook brought 13% cost savings to their bottom line with Simple’s products.”</Link>
+                    <Link to="/blog-post" className="hover:underline">“How Facebook brought 13% cost savings to their bottom line with C3.AI’s products.”</Link>
                   </h3>
                 </header>
                 <footer className="text-sm flex items-center mt-4">
@@ -134,7 +134,7 @@ function News() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <Link to="/blog-post" className="hover:underline">“How Tinder grew 115% and saved 120 Hours each week by outsourcing to Simple.”</Link>
+                    <Link to="/blog-post" className="hover:underline">“How Tinder grew 115% and saved 120 Hours each week by outsourcing to C3.AI.”</Link>
                   </h3>
                 </header>
                 <footer className="text-sm flex items-center mt-4">

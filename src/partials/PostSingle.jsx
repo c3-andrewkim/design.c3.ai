@@ -16,7 +16,7 @@ function PostSingle() {
               {/* Article header */}
               <header className="max-w-3xl mx-auto mb-20">
                 {/* Title */}
-                <h1 className="h1 text-center mb-4">Why we think Simple is good for developers</h1>
+                <h1 className="h1 text-center mb-4">Why we think C3.AI is good for developers</h1>
               </header>
 
               {/* Article content */}
@@ -111,7 +111,7 @@ function PostSingle() {
                     </p>
                     <p className="mb-8">
                       <a className="inline-flex items-center text-base text-blue-600 font-medium hover:underline" href="#0">
-                        <span>Read Simple on-demand services</span>
+                        <span>Read C3.AI on-demand services</span>
                         <svg className="w-3 h-3 fill-current text-blue-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" />
                         </svg>
@@ -131,7 +131,7 @@ function PostSingle() {
                       Et leo duis ut diam quam nulla porttitor porttitor lacus luctus accumsan tortor, lorem dolor sed viverra ipsum nunc aliquet bibendum enim eu augue ut lectus arcu bibendum at. Non sodales neque sodales ut etiam sit. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam.
                     </p>
                     <p className="p-4 bg-gray-100 border border-gray-300 rounded mb-8">
-                      <a className="text-gray-900 underline" href="#0">Simple</a> is a sed viverra ipsum nunc aliquet bibendum enim eu augue ut lectus arcu bibendum at. Non sodales neque sodales ut etiam sit. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Learn more <a className="text-gray-900 underline" href="#0">here</a>.
+                      <a className="text-gray-900 underline" href="#0">C3.AI</a> is a sed viverra ipsum nunc aliquet bibendum enim eu augue ut lectus arcu bibendum at. Non sodales neque sodales ut etiam sit. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Learn more <a className="text-gray-900 underline" href="#0">here</a>.
                     </p>
                     <h3 id="additional" className="h3 text-gray-900 mb-4" style={{ scrollMarginTop: '100px' }}>Additional reading</h3>
                     <p className="mb-8">Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat auctor urna nunc id cursus metus aliqu</p>

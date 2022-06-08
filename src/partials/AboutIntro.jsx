@@ -10,7 +10,7 @@ function AboutIntro() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4">C3 AI Design Presents SF Design Week</h1>
+            <h1 className="dark:text-white h1 mb-4">C3 AI Design Presents SF Design Week</h1>
             <p className="text-xl text-gray-600">
             Bringing leaders in UX, Data Science and Machine Learning together to discuss the latest trends in Enterprise AI. Join our world class design team, and help create the future of Enterprise AI.
             </p>

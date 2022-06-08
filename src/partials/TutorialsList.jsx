@@ -25,7 +25,7 @@ function TutorialsList() {
 
           {/* Page header */}
           <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-            <h1 className="h1">Tutorials & guides for using Simple with any project</h1>
+            <h1 className="h1">Tutorials & guides for using C3.AI with any project</h1>
           </div>
 
           {/* Section tags */}
@@ -189,7 +189,7 @@ function TutorialsList() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
-                    <Link to="/blog-post" className="hover:underline">Create a custom type "Page" with Simple</Link>
+                    <Link to="/blog-post" className="hover:underline">Create a custom type "Page" with C3.AI</Link>
                   </h3>
                 </header>
                 <p className="text-gray-600 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -263,7 +263,7 @@ function TutorialsList() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
-                    <Link to="/blog-post" className="hover:underline">How to add custom icons to your Simple project</Link>
+                    <Link to="/blog-post" className="hover:underline">How to add custom icons to your C3.AI project</Link>
                   </h3>
                 </header>
                 <p className="text-gray-600 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -301,7 +301,7 @@ function TutorialsList() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
-                    <Link to="/blog-post" className="hover:underline">Deploying a Vue.js web application with Simple</Link>
+                    <Link to="/blog-post" className="hover:underline">Deploying a Vue.js web application with C3.AI</Link>
                   </h3>
                 </header>
                 <p className="text-gray-600 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -341,7 +341,7 @@ function TutorialsList() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
-                    <Link to="/blog-post" className="hover:underline">Live preview changes to React websites with Simple</Link>
+                    <Link to="/blog-post" className="hover:underline">Live preview changes to React websites with C3.AI</Link>
                   </h3>
                 </header>
                 <p className="text-gray-600 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -381,7 +381,7 @@ function TutorialsList() {
                     </ul>
                   </div>
                   <h3 className="text-xl font-bold leading-snug tracking-tight mb-2">
-                    <Link to="/blog-post" className="hover:underline">Create a custom app and deploy It with Simple</Link>
+                    <Link to="/blog-post" className="hover:underline">Create a custom app and deploy It with C3.AI</Link>
                   </h3>
                 </header>
                 <p className="text-gray-600 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>

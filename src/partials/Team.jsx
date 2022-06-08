@@ -12,13 +12,13 @@ import TeamMember09 from '../images/team-member-09.jpg';
 
 function Team() {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-white border-t border-gray-200">
+    <section className="border-t border-gray-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2">Meet the Team</h2>
+            <h2 className="h2 dark:text-white">Meet the Team</h2>
           </div>
 
           {/* Team members */}

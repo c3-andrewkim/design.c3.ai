@@ -28,7 +28,7 @@ function Home() {
         {/* <AboutStory /> */}
         {/* <Stats /> */}
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h1 className="h2 mb-4">What we make</h1>
+          <h1 className="dark:text-white h2 mb-4">What we make</h1>
           <p className="text-xl text-gray-600">C3 AI is a leading enterprise AI software provider for accelerating digital transformation. The proven C3 AI Suite provides comprehensive services to build enterprise-scale AI applications more efficiently and cost-effectively than alternative approaches. The C3 AI Suite supports the value chain in any industry with prebuilt, configurable, high-value AI applications for reliability, fraud detection, sensor network health, supply network optimization, energy management, anti-money laundering, and customer engagement.</p>
         </div>
         <FeaturesBlocks />

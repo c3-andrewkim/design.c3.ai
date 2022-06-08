@@ -76,6 +76,11 @@ module.exports = {
         '1/2': '50%',
         'full': '100%',
       },
+      textColor: {
+        'primary': '#ffffff',
+        'secondary': '#ffffff',
+        'danger': '#ffffff',
+      },
       letterSpacing: {
         tighter: '-0.02em',
         tight: '-0.01em',

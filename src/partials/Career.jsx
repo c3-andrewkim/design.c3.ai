@@ -13,7 +13,7 @@ function Career() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Simple is growing. Grow with us.</h2>
+            <h2 className="h2 mb-4 dark:text-white">C3 is growing. Grow with us.</h2>
             <p className="text-xl text-gray-600">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.
                 </p>

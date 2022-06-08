@@ -16,7 +16,7 @@ function BlogList() {
           {/* Page header */}
           <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
             <h1 className="h1 mb-4">Type the way you talk</h1>
-            <p className="text-xl text-gray-600">Stay up to date on the latest from Simple and best news from the Dev world.</p>
+            <p className="text-xl text-gray-600">Stay up to date on the latest from C3.AI and best news from the Dev world.</p>
           </div>
 
           {/* Main content */}
@@ -30,11 +30,11 @@ function BlogList() {
                 <div>
                   <header>
                     <h2 className="h4 mb-2">
-                      <Link to="/blog-post" className="hover:underline">Create and Deploy a blog with Simple</Link>
+                      <Link to="/blog-post" className="hover:underline">Create and Deploy a blog with C3.AI</Link>
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -69,7 +69,7 @@ function BlogList() {
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -104,7 +104,7 @@ function BlogList() {
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -135,11 +135,11 @@ function BlogList() {
                 <div>
                   <header>
                     <h2 className="h4 mb-2">
-                      <Link to="/blog-post" className="hover:underline">Why we think Simple is good for developers</Link>
+                      <Link to="/blog-post" className="hover:underline">Why we think C3.AI is good for developers</Link>
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -174,7 +174,7 @@ function BlogList() {
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -209,7 +209,7 @@ function BlogList() {
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -244,7 +244,7 @@ function BlogList() {
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -279,7 +279,7 @@ function BlogList() {
                     </h2>
                   </header>
                   <div className="text-lg text-gray-600 mb-4">
-                    In this post, you will learn how to deploy a blog using Simple custom asset source plugin that uses the webcam to insert a photo in the image field.
+                    In this post, you will learn how to deploy a blog using C3.AI custom asset source plugin that uses the webcam to insert a photo in the image field.
                   </div>
                   <footer className="text-sm">
                     <div className="flex items-center">
@@ -312,7 +312,7 @@ function BlogList() {
 
               {/* Popular posts */}
               <div className="mb-8">
-                <h4 className="text-lg font-bold leading-snug tracking-tight mb-4">Popular on Simple</h4>
+                <h4 className="text-lg font-bold leading-snug tracking-tight mb-4">Popular on C3.AI</h4>
                 <ul className="-my-2">
                   <li className="flex py-2 border-b border-gray-200">
                     <svg className="w-4 h-4 shrink-0 fill-current text-gray-400 mt-1 mr-3" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -321,7 +321,7 @@ function BlogList() {
                     <article>
                       <h3 className="font-medium mb-1">
                         <Link to="/blog-post" className="hover:underline">
-                          Create and Deploy a blog with Simple
+                          Create and Deploy a blog with C3.AI
                         </Link>
                       </h3>
                       <div className="text-sm text-gray-800">
@@ -337,7 +337,7 @@ function BlogList() {
                     <article>
                       <h3 className="font-medium mb-1">
                         <Link to="/blog-post" className="hover:underline">
-                          Why we think Simple is good for developers
+                          Why we think C3.AI is good for developers
                         </Link>
                       </h3>
                       <div className="text-sm text-gray-800">
@@ -369,7 +369,7 @@ function BlogList() {
                     <article>
                       <h3 className="font-medium mb-1">
                         <Link to="/blog-post" className="hover:underline">
-                          Making New projects with React & Simple
+                          Making New projects with React & C3.AI
                         </Link>
                       </h3>
                       <div className="text-sm text-gray-800">
@@ -385,7 +385,7 @@ function BlogList() {
                     <article>
                       <h3 className="font-medium mb-1">
                         <Link to="/blog-post" className="hover:underline">
-                          How to add custom icons to your Simple project
+                          How to add custom icons to your C3.AI project
                         </Link>
                       </h3>
                       <div className="text-sm text-gray-800">
@@ -427,7 +427,7 @@ function BlogList() {
                     </svg>
                     <div className="font-medium mb-1">
                       <a className="hover:underline" href="#0">
-                        Simple Dev
+                        C3.AI Dev
                                     </a>
                     </div>
                   </li>

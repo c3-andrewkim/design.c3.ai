@@ -1,4 +1,8 @@
 import React from 'react';
+import IntegrityImage from '../images/integrity.svg';
+import InnovationImage from '../images/innovation.svg';
+import CollectiveImage from '../images/collective.svg';
+import CuriosityImage from '../images/curiosity.svg';
 
 function FeaturesBlocks() {
   return (
@@ -13,7 +17,7 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Our Core Values</h2>
+            <h2 className="dark:text-white h2 mb-4">Our Core Values</h2>
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
@@ -33,7 +37,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative" src='../images/innovation.svg' width="32" height="32" alt="Innovation" />
+              <img className="relative" src={InnovationImage} width="32" height="32" alt="Innovation" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Innovation</h4>
               <p className="text-gray-600 text-center">Our ambition is to solve problems that have never been solved before.</p>
             </div>
@@ -50,7 +54,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative" src='../images/curiosity.svg' width="32" height="32" alt="Curiosity" />
+              <img className="relative" src={CuriosityImage} width="32" height="32" alt="Curiosity" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
               <p className="text-gray-600 text-center">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
             </div>
@@ -68,7 +72,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative" src='../images/integrity.svg' width="32" height="32" alt="Integrity" />
+              <img className="relative" src={IntegrityImage} width="32" height="32" alt="Integrity" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Integrity</h4>
               <p className="text-gray-600 text-center">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
             </div>
@@ -86,7 +90,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative" src='../images/collective.svg' width="32" height="32" alt="Collective" />
+              <img className="relative" src={CollectiveImage} width="32" height="32" alt="Collective" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
               <p className="text-gray-600 text-center">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
             </div>

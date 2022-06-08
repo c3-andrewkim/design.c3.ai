@@ -1,4 +1,4 @@
-# Simple React
+# C3.AI React
 
 React landing page template designed by Cruip.
 

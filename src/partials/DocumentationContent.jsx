@@ -8,7 +8,7 @@ function DocumentationContent() {
     <div className="md:grow">
 
       <div className="text-lg text-gray-600">
-        <h2 className="h2 text-gray-900 mb-4">Introduction to Simple</h2>
+        <h2 className="h2 text-gray-900 mb-4">Introduction to C3.AI</h2>
         <p className="mb-8">
           Aenean sed adipiscing diam donec <strong className="font-medium text-gray-900">adipiscing tristique risus</strong> nec feugiat auctor urna nunc id cursus metus aliquam eleifend, arcu dictum varius duis at consectetur lorem donec massa sapien, sed risus ultricies tristique nulla aliquet. <strong className="font-medium text-gray-900">Morbi tristique senectus</strong> et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
         </p>

@@ -23,7 +23,7 @@ function TestimonialsCarousel() {
     {
       img: UserImage02,
       alt: 'Testimonial 02',
-      quote: '“ Not only in my career but in education as well, I feel grateful that Simple pushed me to expand my horizons and strive to accomplish more.“',
+      quote: '“ Not only in my career but in education as well, I feel grateful that C3.AI pushed me to expand my horizons and strive to accomplish more.“',
       name: 'Greg Sebastian',
       role: 'Head of Design',
       team: '@Shopify',
@@ -32,7 +32,7 @@ function TestimonialsCarousel() {
     {
       img: UserImage03,
       alt: 'Testimonial 03',
-      quote: '“ I feel grateful that Simple pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+      quote: '“ I feel grateful that C3.AI pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
       name: 'Dominik Prasad',
       role: 'Backend Lead',
       team: '@Google',

@@ -31,7 +31,7 @@ function PricingTables() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
             <h1 className="h1 mb-4" data-aos="zoom-y-out">Start for free. Pay as you grow. Switch at any time.</h1>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">No matter how many team members you have - our pricing is simple, transparent and adapts to the size of your company.</p>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">No matter how many team members you have - our pricing is C3.AI, transparent and adapts to the size of your company.</p>
           </div>
 
           {/* Pricing tables */}
