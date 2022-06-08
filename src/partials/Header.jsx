@@ -49,8 +49,12 @@ function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
-              <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <Link to="/" className="block" aria-label="design.c3.ai">
+              
+              <img className="relative rounded-full" src='../images/c3aidesignlogo.svg' width="32" height="32" alt="C3 AI Design Logo" />
+
+
+              {/* <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="header-logo">
                     <stop stopColor="#4FD1C5" offset="0%" />
@@ -59,7 +63,7 @@ function Header() {
                   </radialGradient>
                 </defs>
                 <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
-              </svg>
+              </svg> */}
             </Link>
           </div>
 
@@ -71,9 +75,9 @@ function Header() {
               {/* <li>
                 <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link to="/about" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About us</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/tutorials" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                   Tutorials
@@ -151,9 +155,9 @@ function Header() {
                   {/* <li>
                     <Link to="/pricing" className="flex text-gray-600 hover:text-gray-900 py-2">Pricing</Link>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <Link to="/about" className="flex text-gray-600 hover:text-gray-900 py-2">About us</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/tutorials" className="flex text-gray-600 hover:text-gray-900 py-2">Tutorials</Link>
                   </li>  

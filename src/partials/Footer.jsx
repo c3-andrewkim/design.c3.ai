@@ -152,7 +152,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; 2022 C3.ai All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">&copy; 2022 C3.AI, Inc. All rights reserved.</div>
 
         </div>
 

@@ -18,11 +18,11 @@ function FeaturesBlocks() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -32,14 +32,15 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
                   </g>
                 </g>
-              </svg>
+              </svg> */}
+              <img className="relative" src='../images/innovation.svg' width="32" height="32" alt="Innovation" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Innovation</h4>
               <p className="text-gray-600 text-center">Our ambition is to solve problems that have never been solved before.</p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2" transform="translate(19.429 20.571)">
@@ -48,14 +49,15 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835" />
                   </g>
                 </g>
-              </svg>
+              </svg> */}
+              <img className="relative" src='../images/curiosity.svg' width="32" height="32" alt="Curiosity" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
               <p className="text-gray-600 text-center">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
             </div>
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -65,14 +67,15 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-white" d="M24 32h3.429" strokeLinecap="square" />
                   </g>
                 </g>
-              </svg>
+              </svg> */}
+              <img className="relative" src='../images/integrity.svg' width="32" height="32" alt="Integrity" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Integrity</h4>
               <p className="text-gray-600 text-center">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
             </div>
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -82,7 +85,8 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
                   </g>
                 </g>
-              </svg>
+              </svg> */}
+              <img className="relative" src='../images/collective.svg' width="32" height="32" alt="Collective" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
               <p className="text-gray-600 text-center">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
             </div>

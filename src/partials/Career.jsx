@@ -52,9 +52,9 @@ function Career() {
           {/* Job list */}
           <div className="max-w-3xl mx-auto">
 
-            <h3 className="h4 mb-8">Current open positions</h3>
+            <h3 className="h4 mb-8">Current Openings</h3>
 
-            <div className="-my-3">
+            <div className="-my-3 grid gap-6 md:grid-cols-2 lg:grid-cols-2">
 
               {/* 1st Item */}
               <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">

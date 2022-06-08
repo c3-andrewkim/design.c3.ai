@@ -14,9 +14,9 @@ function News() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2">The most innovative businesses choose Simple</h2>
-          </div>
+          </div> */}
 
           {/* Categories */}
           <div className="mb-12 md:mb-16">

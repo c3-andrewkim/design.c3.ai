@@ -1,12 +1,16 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import HeroHome from '../partials/HeroHome';
-import FeaturesHome from '../partials/FeaturesHome';
+import AboutIntro from '../partials/AboutIntro';
+import AboutStory from '../partials/AboutStory';
+import Stats from '../partials/Stats';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
-import FeaturesWorld from '../partials/FeaturesWorld';
 import News from '../partials/News';
-import Cta from '../partials/Cta';
+
+import Team from '../partials/Team';
+import Career from '../partials/Career';
+import Process from '../partials/Process';
+import CtaAlternative from '../partials/CtaAlternative';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -20,12 +24,20 @@ function Home() {
       <main className="grow">
 
         {/*  Page sections */}
-        <HeroHome />
-        <FeaturesHome />
+        <AboutIntro />
+        {/* <AboutStory /> */}
+        {/* <Stats /> */}
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <h1 className="h2 mb-4">What we make</h1>
+          <p className="text-xl text-gray-600">C3 AI is a leading enterprise AI software provider for accelerating digital transformation. The proven C3 AI Suite provides comprehensive services to build enterprise-scale AI applications more efficiently and cost-effectively than alternative approaches. The C3 AI Suite supports the value chain in any industry with prebuilt, configurable, high-value AI applications for reliability, fraud detection, sensor network health, supply network optimization, energy management, anti-money laundering, and customer engagement.</p>
+        </div>
         <FeaturesBlocks />
-        <FeaturesWorld />
+        <Team />
         <News />
-        <Cta />
+
+        <Career />
+        <Process />
+        <CtaAlternative />
 
       </main>
 
