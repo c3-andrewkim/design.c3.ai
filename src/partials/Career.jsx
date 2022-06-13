@@ -9,7 +9,7 @@ function Career() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-200">
+        <div className="py-12 md:py-20">
 
           {/* Section header */}
           {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -50,157 +50,167 @@ function Career() {
           </div> */}
 
           {/* Job list */}
-          <div className="max-w-3xl mx-auto">
+          <div className="">
 
             <h3 className="h4 mb-8 dark:text-white">Current Openings</h3>
+            <p className='dark:text-white'>Join our world class design team and help shape the future of Enterprise AI…</p>
 
-            <div className="-my-3 grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+            <div className="my-6 mt-20 grid gap-20 md:grid-cols-3 lg:grid-cols-3">
 
-              {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <div>
+                <p className='dark:text-gray-500 font-bold text-sm mb-6'>PRODUCT DESIGN</p>
+                {/* 1st Item */}
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Director, AI Product Innovation</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
+           
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
-                <div className="font-medium">Manager, UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-              {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
-                <div className="font-medium">Lead UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-              {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
-                <div className="font-medium">Senior UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-              {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
-                <div className="font-medium">UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
-              </a>
-              {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Manager, Product Design</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Lead Product Designer</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Senior Product Designer, C3 AI CRM</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Senior Product Designer, C3 AI Studio</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Senior Product Designer</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Product Designer</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Product Designer, Intelligence and Defense </div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
-            </div>
-            <div className="-my-3">
-
+              </div>
+              
+              <div>
+                <p className='dark:text-gray-500 font-bold text-sm mb-6'>DESIGN SYSTEM</p>
+              
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Product Manager, Design Systems</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Lead Product Designer, Design Systems</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Senior Product Designer, Design Systems</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Senior Product Designer, Visual Design</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Product Designer, Design Systems</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Lead Front-End Engineer, Design Systems</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Senior Front-End Engineer, Design Systems</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between items-center p-4 rounded border border-gray-200 transition duration-300 ease-in-out bg-gray-100 shadow-md hover:bg-white hover:shadow-lg mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
                 <div className="font-medium">Front-End Engineer, Design Systems</div>
                 <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
                 </svg>
               </a>
-            </div>
+              </div>
 
+              <div>
+                <p className='dark:text-gray-500 font-bold text-sm mb-6'>RESEARCH</p>
+                   {/* 1st Item */}
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+                <div className="font-medium">Manager, UX Researcher</div>
+                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
+                </svg>
+              </a>
+              {/* 1st Item */}
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+                <div className="font-medium">Lead UX Researcher</div>
+                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
+                </svg>
+              </a>
+              {/* 1st Item */}
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+                <div className="font-medium">Senior UX Researcher</div>
+                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
+                </svg>
+              </a>
+              {/* 1st Item */}
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+                <div className="font-medium">UX Researcher</div>
+                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
+                </svg>
+              </a>
+              </div>
+              </div>
           </div>
 
         </div>

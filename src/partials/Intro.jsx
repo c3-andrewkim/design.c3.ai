@@ -2,14 +2,15 @@ import React from 'react';
 
 function Intro() {
   return (
-    <section style={{backgroundColor: "rgba(0,0,0,0.8)"}}>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+    <section style={{backgroundColor: "rgba(0,0,0,0.8)", height: "800px"}}>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-full">
+        <div className="pt-32 pb-12 md:pt-40 md:pb-20 flex flex-col justify-center m-auto h-full">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 h-max">
+          <div className="max-w-3xl h-full mx-auto text-center pb-12 md:pb-16 h-max">
+            <p className="dark:text-gray-400 font-bold uppercase">June 24, 2022</p>
             <h1 className="dark:text-white h1 mb-4">C3 AI Design Presents SF Design Week</h1>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl text-gray-600 dark:text-white">
             Bringing leaders in UX, Data Science and Machine Learning together to discuss the latest trends in Enterprise AI. Join our world class design team, and help create the future of Enterprise AI.
             </p>
           </div>

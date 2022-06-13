@@ -35,3 +35,9 @@ $aos-distance: 10px;
     position: absolute;
     z-index: -1;
 }
+
+.team-image{
+    width: 10rem;
+    height: 15rem;
+    object-fit: cover
+}

@@ -6,54 +6,66 @@ import CuriosityImage from '../images/curiosity.svg';
 
 function FeaturesBlocks() {
   return (
-    <section className="relative">
+    <section className="relative bg-stone-900">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
+      {/* <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div> */}
+      {/* <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div> */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="dark:text-white h2 mb-4">Our Core Values</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+          <div className="max-w-3xl text-left pb-8">
+            <h3 className="dark:text-white h3 mb-4">Our core values</h3>
+            {/* <p className="text-xl dark:text-white text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-6xl">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-row items-center p-6 pl-0">
 
-              <img className="relative" src={InnovationImage} width="32" height="32" alt="Innovation" />
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Innovation</h4>
-              <p className="text-gray-600 text-center">Our ambition is to solve problems that have never been solved before.</p>
+              <img className="relative" src={InnovationImage} width="80" height="80" alt="Innovation" />
+              <div className="text-left pl-10">
+
+              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Innovation</h4>
+              <p className="text-gray-600 ">Our ambition is to solve problems that have never been solved before.</p>
+              </div>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-row items-center p-6 pl-0">
              
-              <img className="relative" src={CuriosityImage} width="32" height="32" alt="Curiosity" />
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
-              <p className="text-gray-600 text-center">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
+              <img className="relative" src={CuriosityImage} width="80" height="80" alt="Curiosity" />
+              <div className="text-left pl-10">
+
+              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
+              <p className="text-gray-600 ">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
+              </div>
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-row items-center p-6 pl-0">
              
-              <img className="relative" src={IntegrityImage} width="32" height="32" alt="Integrity" />
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Integrity</h4>
-              <p className="text-gray-600 text-center">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
+              <img className="relative" src={IntegrityImage} width="80" height="80" alt="Integrity" />
+              <div className="text-left pl-10">
+
+              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Integrity</h4>
+              <p className="text-gray-600 ">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
+              </div>
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-row items-center p-6 pl-0">
             
-              <img className="relative" src={CollectiveImage} width="32" height="32" alt="Collective" />
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
-              <p className="text-gray-600 text-center">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
+              <img className="relative" src={CollectiveImage} width="80" height="80" alt="Collective" />
+              <div className="text-left pl-10">
+                
+              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
+              <p className="text-gray-600 ">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
+              </div>
             </div>
 
           </div>

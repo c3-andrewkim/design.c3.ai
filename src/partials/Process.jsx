@@ -4,7 +4,7 @@ function Process() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-16 border-t border-gray-200">
+        <div className="py-12 md:py-16">
 
           {/* Items */}
           <div className="relative max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none">

@@ -9,29 +9,12 @@ import { Link } from 'react-router-dom';
 
 function News() {
   return (
-    <section>
+    <section className='bg-stone-900'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
-          {/* Categories */}
-          <div className="mb-12 md:mb-16">
-            <ul className="flex flex-wrap justify-center text-sm font-medium -m-2">
-              <li className="m-2">
-                <a className="inline-flex text-center text-gray-100 py-2 px-4 rounded-full bg-blue-600 hover:bg-blue-700 transition duration-150 ease-in-out" href="#0">Developers</a>
-              </li>
-              <li className="m-2">
-                <a className="inline-flex text-center text-gray-800 py-2 px-4 rounded-full bg-white hover:bg-gray-100 shadow-sm transition duration-150 ease-in-out" href="#0">SaaS</a>
-              </li>
-              <li className="m-2">
-                <a className="inline-flex text-center text-gray-800 py-2 px-4 rounded-full bg-white hover:bg-gray-100 shadow-sm transition duration-150 ease-in-out" href="#0">Web Agencies</a>
-              </li>
-              <li className="m-2">
-                <a className="inline-flex text-center text-gray-800 py-2 px-4 rounded-full bg-white hover:bg-gray-100 shadow-sm transition duration-150 ease-in-out" href="#0">E-Commerce</a>
-              </li>
-              <li className="m-2">
-                <a className="inline-flex text-center text-gray-800 py-2 px-4 rounded-full bg-white hover:bg-gray-100 shadow-sm transition duration-150 ease-in-out" href="#0">Startups</a>
-              </li>
-            </ul>
+        <div className="max-w-3xl text-left pb-12 md:pb-20">
+            <h3 className="dark:text-white h3 mb-4">Blogs</h3>
           </div>
 
           {/* Articles list */}
