@@ -1,9 +1,9 @@
 import React from 'react';
 
-import PlanetImage from '../images/planet.png';
-import PlanetAvatar03 from '../images/planet-avatar-03.png';
-import PlanetAvatar04 from '../images/planet-avatar-04.png';
-import PlanetAvatar05 from '../images/planet-avatar-05.png';
+// import PlanetImage from '../images/planet.png';
+// import PlanetAvatar03 from '../images/planet-avatar-03.png';
+// import PlanetAvatar04 from '../images/planet-avatar-04.png';
+// import PlanetAvatar05 from '../images/planet-avatar-05.png';
 
 function Stats() {
   return (
@@ -33,7 +33,7 @@ function Stats() {
                 <rect className="fill-current text-white" width="128" height="48" rx="24" />
               </svg>
               {/* Globe image */}
-              <img className="relative rounded-full shadow-xl" src={PlanetImage} width="400" height="400" alt="Planet" />
+              {/* <img className="relative rounded-full shadow-xl" src={PlanetImage} width="400" height="400" alt="Planet" /> */}
               {/* Static dots */}
               <svg className="absolute top-0 w-full h-auto" viewBox="0 0 400 400" style={{ left: '12%' }} xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -87,9 +87,9 @@ function Stats() {
                 </g>
               </svg>
               {/* Avatars */}
-              <img className="absolute max-w-full transform animate-float" src={PlanetAvatar03} width="287" height="86" alt="Planet avatar 03" style={{ width: '71.75%', top: '-4%', left: '-23.5%' }} />
-              <img className="absolute max-w-full transform animate-float animation-delay-1000" src={PlanetAvatar04} width="256" height="126" alt="Planet avatar 04" style={{ width: '64%', bottom: '2%', right: '-18%' }} />
-              <img className="absolute max-w-full transform animate-float animation-delay-1000" src={PlanetAvatar05} width="296" height="78" alt="Planet avatar 05" style={{ width: '74%', top: '-5%', right: '-22%' }} />
+              {/* <img className="absolute max-w-full transform animate-float" src={PlanetAvatar03} width="287" height="86" alt="Planet avatar 03" style={{ width: '71.75%', top: '-4%', left: '-23.5%' }} /> */}
+              {/* <img className="absolute max-w-full transform animate-float animation-delay-1000" src={PlanetAvatar04} width="256" height="126" alt="Planet avatar 04" style={{ width: '64%', bottom: '2%', right: '-18%' }} /> */}
+              {/* <img className="absolute max-w-full transform animate-float animation-delay-1000" src={PlanetAvatar05} width="296" height="78" alt="Planet avatar 05" style={{ width: '74%', top: '-5%', right: '-22%' }} /> */}
               {/* White box */}
               <svg className="absolute w-32 h-auto rounded-full shadow-xl" viewBox="0 0 128 48" style={{ width: '32%', top: '35%', left: '-25%' }} xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-white" width="128" height="48" rx="24" />

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import NewsImage01 from '../images/news-01.jpg';
-import NewsImage02 from '../images/news-02.jpg';
-import NewsImage03 from '../images/news-03.jpg';
-import NewsAuthor01 from '../images/news-author-01.jpg';
-import NewsAuthor02 from '../images/news-author-02.jpg';
+// import NewsImage01 from '../images/news-01.jpg';
+// import NewsImage02 from '../images/news-02.jpg';
+// import NewsImage03 from '../images/news-03.jpg';
+// import NewsAuthor01 from '../images/news-author-01.jpg';
+// import NewsAuthor02 from '../images/news-author-02.jpg';
 
 function News() {
   return (
@@ -43,7 +43,7 @@ function News() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={NewsImage01} width="352" height="198" alt="News 01" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={NewsImage01} width="352" height="198" alt="News 01" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -64,7 +64,7 @@ function News() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" /> */}
                     </a>
                   </div>
                   <div>
@@ -79,7 +79,7 @@ function News() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={NewsImage02} width="352" height="198" alt="News 02" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={NewsImage02} width="352" height="198" alt="News 02" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -100,7 +100,7 @@ function News() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative -ml-2" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor02} width="32" height="32" alt="Author 03" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor02} width="32" height="32" alt="Author 03" /> */}
                     </a>
                   </div>
                   <div>
@@ -115,7 +115,7 @@ function News() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={NewsImage03} width="352" height="198" alt="News 03" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 translate-z-0 hover:-translate-y-1 transition duration-700 ease-out" src={NewsImage03} width="352" height="198" alt="News 03" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -136,7 +136,7 @@ function News() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" /> */}
                     </a>
                   </div>
                   <div>

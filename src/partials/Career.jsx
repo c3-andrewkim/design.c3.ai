@@ -1,9 +1,9 @@
 import React from 'react';
 
-import TeamImage01 from '../images/team-mosaic-01.jpg';
-import TeamImage02 from '../images/team-mosaic-02.jpg';
-import TeamImage03 from '../images/team-mosaic-03.jpg';
-import TeamImage04 from '../images/team-mosaic-04.jpg';
+// import TeamImage01 from '../images/team-mosaic-01.jpg';
+// import TeamImage02 from '../images/team-mosaic-02.jpg';
+// import TeamImage03 from '../images/team-mosaic-03.jpg';
+// import TeamImage04 from '../images/team-mosaic-04.jpg';
 
 function Career() {
   return (
@@ -52,7 +52,7 @@ function Career() {
           {/* Job list */}
           <div className="max-w-3xl mx-auto">
 
-            <h3 className="h4 mb-8">Current Openings</h3>
+            <h3 className="h4 mb-8 dark:text-white">Current Openings</h3>
 
             <div className="-my-3 grid gap-6 md:grid-cols-2 lg:grid-cols-2">
 

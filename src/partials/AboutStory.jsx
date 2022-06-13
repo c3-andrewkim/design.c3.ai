@@ -1,7 +1,7 @@
 import React from 'react';
 
-import AboutImage from '../images/about-02.jpg';
-import AboutLogo from '../images/about-logo.png';
+// import AboutImage from '../images/about-02.jpg';
+// import AboutLogo from '../images/about-logo.png';
 
 function AboutStory() {
   return (
@@ -21,7 +21,7 @@ function AboutStory() {
 
           <div className="sm:flex">
             <figure className="flex shrink-0 max-w-none sm:max-w-xs lg:max-w-none mb-8 sm:mb-0">
-              <img className="grow self-start rounded" src={AboutImage} width="435" height="326" alt="About us 02" />
+              {/* <img className="grow self-start rounded" src={AboutImage} width="435" height="326" alt="About us 02" /> */}
             </figure>
             <div className="sm:ml-8 lg:ml-16">
               <h4 className="h4 mb-2">2017 - 2020</h4>
@@ -29,7 +29,7 @@ function AboutStory() {
                 Quam pellentesque nec nam aliquam sem et tortor consequat, pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam varius sit amet mattis vulputate enim nulla aliquet porttitor.
               </p>
               <div className="flex  mb-8">
-                <img className="rounded-full self-start shrink-0 shadow-lg mr-4" src={AboutLogo} width="40" height="40" alt="Logo" />
+                {/* <img className="rounded-full self-start shrink-0 shadow-lg mr-4" src={AboutLogo} width="40" height="40" alt="Logo" /> */}
                 <div>
                   <blockquote className="text-gray-600 italic">
                     “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “

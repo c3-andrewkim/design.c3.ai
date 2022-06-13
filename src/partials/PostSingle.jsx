@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import NewsAuthor from '../images/news-author-04.jpg';
-import NewsImage from '../images/news-single.jpg';
+// import NewsAuthor from '../images/news-author-04.jpg';
+// import NewsImage from '../images/news-single.jpg';
 
 function PostSingle() {
   return (
@@ -71,7 +71,7 @@ function PostSingle() {
                     <div className="flex shrink-0 mr-3">
                       <a className="relative" href="#0">
                         <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                        <img className="relative rounded-full" src={NewsAuthor} width="32" height="32" alt="Author 04" />
+                        {/* <img className="relative rounded-full" src={NewsAuthor} width="32" height="32" alt="Author 04" /> */}
                       </a>
                     </div>
                     <div>
@@ -91,7 +91,7 @@ function PostSingle() {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                     <figure className="mb-8">
-                      <img className="w-full rounded" src={NewsImage} width="768" height="432" alt="Blog single" />
+                      {/* <img className="w-full rounded" src={NewsImage} width="768" height="432" alt="Blog single" /> */}
                     </figure>
                     <h3 id="general" className="h3 text-gray-900 mb-4" style={{ scrollMarginTop: '100px' }}>General content</h3>
                     <p className="mb-8">

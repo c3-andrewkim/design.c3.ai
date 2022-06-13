@@ -1,21 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import TutorialImage01 from '../images/tutorial-01.jpg';
-import TutorialImage02 from '../images/tutorial-02.jpg';
-import TutorialImage03 from '../images/tutorial-03.jpg';
-import TutorialImage04 from '../images/tutorial-04.jpg';
-import TutorialImage05 from '../images/tutorial-05.jpg';
-import TutorialImage06 from '../images/tutorial-06.jpg';
-import TutorialImage07 from '../images/tutorial-07.jpg';
-import TutorialImage08 from '../images/tutorial-08.jpg';
-import TutorialImage09 from '../images/tutorial-09.jpg';
-import NewsAuthor01 from '../images/news-author-01.jpg';
-import NewsAuthor02 from '../images/news-author-02.jpg';
-import NewsAuthor03 from '../images/news-author-03.jpg';
-import NewsAuthor04 from '../images/news-author-04.jpg';
-import NewsAuthor05 from '../images/news-author-05.jpg';
-import NewsAuthor06 from '../images/news-author-06.jpg';
+// import TutorialImage01 from '../images/tutorial-01.jpg';
+// import TutorialImage02 from '../images/tutorial-02.jpg';
+// import TutorialImage03 from '../images/tutorial-03.jpg';
+// import TutorialImage04 from '../images/tutorial-04.jpg';
+// import TutorialImage05 from '../images/tutorial-05.jpg';
+// import TutorialImage06 from '../images/tutorial-06.jpg';
+// import TutorialImage07 from '../images/tutorial-07.jpg';
+// import TutorialImage08 from '../images/tutorial-08.jpg';
+// import TutorialImage09 from '../images/tutorial-09.jpg';
+// import NewsAuthor01 from '../images/news-author-01.jpg';
+// import NewsAuthor02 from '../images/news-author-02.jpg';
+// import NewsAuthor03 from '../images/news-author-03.jpg';
+// import NewsAuthor04 from '../images/news-author-04.jpg';
+// import NewsAuthor05 from '../images/news-author-05.jpg';
+// import NewsAuthor06 from '../images/news-author-06.jpg';
 
 function TutorialsList() {
   return (
@@ -60,7 +60,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage01} width="352" height="198" alt="News 01" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage01} width="352" height="198" alt="News 01" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -85,11 +85,11 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" /> */}
                     </a>
                     <a className="relative -ml-2" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor03} width="32" height="32" alt="Author 03" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor03} width="32" height="32" alt="Author 03" /> */}
                     </a>
                   </div>
                   <div>
@@ -104,7 +104,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage02} width="352" height="198" alt="News 02" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage02} width="352" height="198" alt="News 02" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -123,7 +123,7 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor02} width="32" height="32" alt="Author 02" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor02} width="32" height="32" alt="Author 02" /> */}
                     </a>
                   </div>
                   <div>
@@ -138,7 +138,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage03} width="352" height="198" alt="News 03" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage03} width="352" height="198" alt="News 03" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -163,7 +163,7 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" /> */}
                     </a>
                   </div>
                   <div>
@@ -178,7 +178,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage04} width="352" height="198" alt="News 04" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage04} width="352" height="198" alt="News 04" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -197,7 +197,7 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor04} width="32" height="32" alt="Author 04" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor04} width="32" height="32" alt="Author 04" /> */}
                     </a>
                   </div>
                   <div>
@@ -212,7 +212,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage05} width="352" height="198" alt="News 05" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage05} width="352" height="198" alt="News 05" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -231,7 +231,7 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor03} width="32" height="32" alt="Author 03" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor03} width="32" height="32" alt="Author 03" /> */}
                     </a>
                   </div>
                   <div>
@@ -246,7 +246,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage06} width="352" height="198" alt="News 06" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage06} width="352" height="198" alt="News 06" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -271,11 +271,11 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor05} width="32" height="32" alt="Author 05" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor05} width="32" height="32" alt="Author 05" /> */}
                     </a>
                     <a className="relative -ml-2" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" /> */}
                     </a>
                   </div>
                   <div>
@@ -290,7 +290,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage07} width="352" height="198" alt="News 07" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage07} width="352" height="198" alt="News 07" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -309,7 +309,7 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor06} width="32" height="32" alt="Author 06" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor06} width="32" height="32" alt="Author 06" /> */}
                     </a>
                   </div>
                   <div>
@@ -324,7 +324,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage08} width="352" height="198" alt="News 08" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage08} width="352" height="198" alt="News 08" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -349,7 +349,7 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor04} width="32" height="32" alt="Author 04" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor04} width="32" height="32" alt="Author 04" /> */}
                     </a>
                   </div>
                   <div>
@@ -364,7 +364,7 @@ function TutorialsList() {
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage09} width="352" height="198" alt="News 09" />
+                      {/* <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={TutorialImage09} width="352" height="198" alt="News 09" /> */}
                     </figure>
                   </Link>
                   <div className="mb-3">
@@ -389,7 +389,7 @@ function TutorialsList() {
                   <div className="flex shrink-0 mr-3">
                     <a className="relative" href="#0">
                       <span className="absolute inset-0 -m-px" aria-hidden="true"><span className="absolute inset-0 -m-px bg-white rounded-full"></span></span>
-                      <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" />
+                      {/* <img className="relative rounded-full" src={NewsAuthor01} width="32" height="32" alt="Author 01" /> */}
                     </a>
                   </div>
                   <div>
