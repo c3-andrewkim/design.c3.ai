@@ -8,8 +8,8 @@ function Intro() {
 
           {/* Section header */}
           <div className="max-w-3xl h-full mx-auto text-center pb-12 md:pb-16 h-max">
-            <p className="dark:text-gray-400 font-bold uppercase">June 24, 2022</p>
-            <h1 className="dark:text-white h1 mb-4">C3 AI Design Presents SF Design Week</h1>
+            <p className="dark-secondary-font-color font-bold uppercase">June 24, 2022</p>
+            <h1 className="dark:text-white h1 mb-4">C3 AI Design Presents <br></br>SF Design Week</h1>
             <p className="md:text-xl text-md text-gray-600 dark:text-white">
             Bringing leaders in UX, Data Science and Machine Learning together to discuss the latest trends in Enterprise AI. Join our world class design team, and help create the future of Enterprise AI.
             </p>

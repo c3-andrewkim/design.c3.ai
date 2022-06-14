@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import TopImage from '../images/features-top-image.png';
-import FeaturesBg01 from '../images/features-home-bg-01.png';
-import FeaturesElement01 from '../images/features-home-element-01.png';
-import FeaturesElement02 from '../images/features-home-element-02.png';
-import FeaturesElement03 from '../images/features-home-element-03.png';
+// import TopImage from '../images/features-top-image.png';
+// import FeaturesBg01 from '../images/features-home-bg-01.png';
+// import FeaturesElement01 from '../images/features-home-element-01.png';
+// import FeaturesElement02 from '../images/features-home-element-02.png';
+// import FeaturesElement03 from '../images/features-home-element-03.png';
 
 function FeaturesHome() {
 

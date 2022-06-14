@@ -31,7 +31,7 @@ function FeaturesBlocks() {
               <div className="text-left pl-4 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Innovation</h4>
-              <p className="text-gray-600 ">Our ambition is to solve problems that have never been solved before.</p>
+              <p className="dark-secondary-font-color">Our ambition is to solve problems that have never been solved before.</p>
               </div>
             </div>
 
@@ -42,7 +42,7 @@ function FeaturesBlocks() {
               <div className="text-left pl-4 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
-              <p className="text-gray-600 ">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
+              <p className="dark-secondary-font-color">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
               </div>
             </div>
 
@@ -53,7 +53,7 @@ function FeaturesBlocks() {
               <div className="text-left pl-4 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Integrity</h4>
-              <p className="text-gray-600 ">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
+              <p className="dark-secondary-font-color">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ function FeaturesBlocks() {
               <div className="text-left pl-4 md:pl-10">
                 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
-              <p className="text-gray-600 ">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
+              <p className="dark-secondary-font-color">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
               </div>
             </div>
 
