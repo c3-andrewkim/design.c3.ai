@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer>
+    <footer className='gray-100'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
@@ -29,8 +29,8 @@ function Footer() {
           </div>
 
           {/* 4th block */}
-          <div className="py-12">
-            <h6 className="text-gray-800 font-medium mb-2 uppercase">About us</h6>
+          <div className="py-12 dark-secondary-font-color">
+            <h6 className="font-medium mb-2 uppercase">About us</h6>
             <p>C3.ai is a leading enterprise AI software provider for accelerating digital transformation.</p>
           </div>
        
@@ -66,15 +66,15 @@ function Footer() {
           </ul> */}
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; 2022 C3.AI, Inc. All rights reserved.</div>
+          <div className="text-sm dark-secondary-font-color mr-4">&copy; 2022 <span className='text-white'>C3.AI</span>, Inc. All rights reserved.</div>
 
-          <div className="text-sm text-gray-600 flex justify-between w-80">
+          <div className="text-sm dark:text-white flex justify-between w-80">
               
-              <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
+              <Link to="#" className="dark:text-white hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
 
-               <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms of Use</Link>
+               <Link to="#" className="dark:text-white hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms of Use</Link>
 
-               <Link to="#" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Impressum</Link>
+               <Link to="#" className="dark:text-white hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Impressum</Link>
             </div>
 
         </div>

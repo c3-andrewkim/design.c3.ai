@@ -5,7 +5,7 @@ import arrowright from '../images/arrow-right.svg';
 
 function Career() {
   return (
-    <section>
+    <section className='gray-100'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
@@ -56,116 +56,116 @@ function Career() {
             <div className="my-6 mt-20 grid gap-20 md:grid-cols-3 lg:grid-cols-3">
 
               <div>
-                <p className='dark:text-gray-500 font-bold text-sm mb-6'>PRODUCT DESIGN</p>
+                <p className='dark-secondary-font-color font-bold text-sm mb-6'>PRODUCT DESIGN</p>
                 {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093878002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093878002">
                 <div className="font-medium">Director, AI Product Innovation</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
            
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6036960002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6036960002">
                 <div className="font-medium">Manager, Product Design</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5033860002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5033860002">
                 <div className="font-medium">Lead Product Designer</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093935002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093935002">
                 <div className="font-medium">Senior Product Designer, C3 AI CRM</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093939002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093939002">
                 <div className="font-medium">Senior Product Designer, C3 AI Studio</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5033850002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5033850002">
                 <div className="font-medium">Senior Product Designer</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5029238002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5029238002">
                 <div className="font-medium">Product Designer</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5991077002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5991077002">
                 <div className="font-medium">Product Designer, Intelligence and Defense </div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               </div>
               
               <div>
-                <p className='dark:text-gray-500 font-bold text-sm mb-6'>DESIGN SYSTEM</p>
+                <p className='dark-secondary-font-color font-bold text-sm mb-6'>DESIGN SYSTEM</p>
               
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5627079002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5627079002">
                 <div className="font-medium">Product Manager, Design Systems</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596108002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596108002">
                 <div className="font-medium">Lead Product Designer, Design Systems</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596222002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596222002">
                 <div className="font-medium">Senior Product Designer, Design Systems</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6037070002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6037070002">
                 <div className="font-medium">Senior Product Designer, Visual Design</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5625759002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5625759002">
                 <div className="font-medium">Product Designer, Design Systems</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596178002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596178002">
                 <div className="font-medium">Lead Front-End Engineer, Design Systems</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596242002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596242002">
                 <div className="font-medium">Senior Front-End Engineer, Design Systems</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5545901002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5545901002">
                 <div className="font-medium">Front-End Engineer, Design Systems</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               </div>
 
               <div>
-                <p className='dark:text-gray-500 font-bold text-sm mb-6'>RESEARCH</p>
+                <p className='dark-secondary-font-color font-bold text-sm mb-6'>RESEARCH</p>
                    {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093903002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093903002">
                 <div className="font-medium">Manager, UX Researcher</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093900002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093900002">
                 <div className="font-medium">Lead UX Researcher</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093941002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093941002">
                 <div className="font-medium">Senior UX Researcher</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5904643002">
+              <a target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5904643002">
                 <div className="font-medium">UX Researcher</div>
-                <img src={arrowright} alt="right arrow" />
+                {/* <img src={arrowright} alt="right arrow" /> */}
               </a>
               </div>
               </div>

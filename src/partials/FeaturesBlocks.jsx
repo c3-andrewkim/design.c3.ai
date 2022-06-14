@@ -6,13 +6,13 @@ import CuriosityImage from '../images/curiosity.svg';
 
 function FeaturesBlocks() {
   return (
-    <section className="relative bg-stone-900">
+    <section className="relative gray-95">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       {/* <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div> */}
       {/* <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div> */}
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="relative max-w-6xl mx-auto px-8 md:px-4 sm:px-6">
         <div className="py-20">
 
           {/* Section header */}
@@ -28,7 +28,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-row items-center p-6 pl-0">
 
               <img className="relative" src={InnovationImage} width="80" height="80" alt="Innovation" />
-              <div className="text-left pl-10">
+              <div className="text-left pl-4 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Innovation</h4>
               <p className="text-gray-600 ">Our ambition is to solve problems that have never been solved before.</p>
@@ -39,7 +39,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-row items-center p-6 pl-0">
              
               <img className="relative" src={CuriosityImage} width="80" height="80" alt="Curiosity" />
-              <div className="text-left pl-10">
+              <div className="text-left pl-4 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
               <p className="text-gray-600 ">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
@@ -50,7 +50,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-row items-center p-6 pl-0">
              
               <img className="relative" src={IntegrityImage} width="80" height="80" alt="Integrity" />
-              <div className="text-left pl-10">
+              <div className="text-left pl-4 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Integrity</h4>
               <p className="text-gray-600 ">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
@@ -61,7 +61,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-row items-center p-6 pl-0">
             
               <img className="relative" src={CollectiveImage} width="80" height="80" alt="Collective" />
-              <div className="text-left pl-10">
+              <div className="text-left pl-4 md:pl-10">
                 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
               <p className="text-gray-600 ">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>

@@ -21,8 +21,8 @@ import notpictured from '../images/notpictured.png';
 
 function Team() {
   return (
-    <section className="">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <section className="gray-100">
+      <div className="max-w-6xl mx-auto px-8 md:px-4">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
@@ -33,14 +33,14 @@ function Team() {
 
 
           {/* Team members */}
-          <div className="max-w-sm sm:max-w-5xl mx-auto sm:flex sm:flex-wrap sm:justify-center -my-6 sm:-my-8 sm:-mx-3" data-aos-id-team>
+          <div className="max-w-sm sm:max-w-5xl mx-auto sm:flex sm:flex-wrap sm:justify-center grid grid-cols-2 -my-6 sm:-my-8 sm:-mx-3" data-aos-id-team>
 
             {/* 1st member */}
             <div className="sm:w-1/2 md:w-1/6 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="1200" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Andrew Kim</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Design Engineer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Design Engineer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -52,7 +52,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Beatrice Zhou</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -64,7 +64,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={clair} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Clair Sun</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -76,7 +76,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={emily} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Emily Ho</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -88,7 +88,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Eva Luo</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Design Manager</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Design Manager</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -101,7 +101,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={evie} alt="Team member 02" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Evie Xu</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -114,7 +114,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Gianna Kim</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -127,7 +127,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={grace} alt="Team member 04" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Grace Guo</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -140,7 +140,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={hans} alt="Team member 05" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Hans Gruten</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">VP of Design</div>
+                <div className="dark-secondary-font-color font-medium mb-2">VP of Design</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -153,7 +153,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Ivy Lin</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -165,7 +165,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={jason} alt="Team member 07" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Jason Azares</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Design Manager</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Design Manager</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -178,7 +178,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={jc} alt="Team member 08" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">JC Hu</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -191,7 +191,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={jeeyoung} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Jeeyoung Jung</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Design Manager</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Design Manager</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -204,7 +204,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Jueun Nam</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -217,7 +217,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Nitya Devireddy</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Design Manager</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Design Manager</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -230,7 +230,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={peter} alt="Team member 07" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Peter Xu</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer Intern</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer Intern</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -243,7 +243,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Robert Ye</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -256,7 +256,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Sooyeon Hwang</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -269,7 +269,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={tianyi} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Tianyi Xie</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -282,7 +282,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Visuda Sathurappan</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -295,7 +295,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={yangyi} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Yangyi Xu</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -308,7 +308,7 @@ function Team() {
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Yi-Le Zhang</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -321,7 +321,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={yujin} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Yujin Xue</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
@@ -334,7 +334,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className=" team-image mb-4" src={yujin} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Yujin Xue</h4>
-                <div className="dark:text-gray-600 font-medium mb-2">Product Designer</div>
+                <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
