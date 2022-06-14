@@ -1,9 +1,7 @@
 import React from 'react';
 
-// import TeamImage01 from '../images/team-mosaic-01.jpg';
-// import TeamImage02 from '../images/team-mosaic-02.jpg';
-// import TeamImage03 from '../images/team-mosaic-03.jpg';
-// import TeamImage04 from '../images/team-mosaic-04.jpg';
+import arrowright from '../images/arrow-right.svg';
+
 
 function Career() {
   return (
@@ -60,61 +58,45 @@ function Career() {
               <div>
                 <p className='dark:text-gray-500 font-bold text-sm mb-6'>PRODUCT DESIGN</p>
                 {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093878002">
                 <div className="font-medium">Director, AI Product Innovation</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
            
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6036960002">
                 <div className="font-medium">Manager, Product Design</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5033860002">
                 <div className="font-medium">Lead Product Designer</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093935002">
                 <div className="font-medium">Senior Product Designer, C3 AI CRM</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093939002">
                 <div className="font-medium">Senior Product Designer, C3 AI Studio</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5033850002">
                 <div className="font-medium">Senior Product Designer</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5029238002">
                 <div className="font-medium">Product Designer</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5991077002">
                 <div className="font-medium">Product Designer, Intelligence and Defense </div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               </div>
               
@@ -122,92 +104,68 @@ function Career() {
                 <p className='dark:text-gray-500 font-bold text-sm mb-6'>DESIGN SYSTEM</p>
               
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5627079002">
                 <div className="font-medium">Product Manager, Design Systems</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596108002">
                 <div className="font-medium">Lead Product Designer, Design Systems</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596222002">
                 <div className="font-medium">Senior Product Designer, Design Systems</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6037070002">
                 <div className="font-medium">Senior Product Designer, Visual Design</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5625759002">
                 <div className="font-medium">Product Designer, Design Systems</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596178002">
                 <div className="font-medium">Lead Front-End Engineer, Design Systems</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5596242002">
                 <div className="font-medium">Senior Front-End Engineer, Design Systems</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5545901002">
                 <div className="font-medium">Front-End Engineer, Design Systems</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               </div>
 
               <div>
                 <p className='dark:text-gray-500 font-bold text-sm mb-6'>RESEARCH</p>
                    {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093903002">
                 <div className="font-medium">Manager, UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093900002">
                 <div className="font-medium">Lead UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093941002">
                 <div className="font-medium">Senior UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               {/* 1st Item */}
-              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="#0">
+              <a className="flex justify-between mb-6 transition duration-300 ease-in-out dark:text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5904643002">
                 <div className="font-medium">UX Researcher</div>
-                <svg className="w-4 h-4 fill-current text-blue-600 shrink-0 ml-6" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.707 1h-8v2h5.586L1 13.293l1.414 1.414L12.707 4.414V10h2V2a1 1 0 00-1-1z" />
-                </svg>
+                <img src={arrowright} alt="right arrow" />
               </a>
               </div>
               </div>

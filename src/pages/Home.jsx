@@ -9,7 +9,7 @@ import News from '../partials/News';
 
 import Team from '../partials/Team';
 import Career from '../partials/Career';
-import Process from '../partials/Process';
+// import Process from '../partials/Process';
 // import CtaAlternative from '../partials/CtaAlternative';
 import Footer from '../partials/Footer';
 
@@ -36,7 +36,7 @@ function Home() {
         <News />
 
         <Career />
-        <Process />
+        {/* <Process /> */}
         {/* <CtaAlternative /> */}
 
       </main>
