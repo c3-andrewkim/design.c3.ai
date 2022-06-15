@@ -1160,8 +1160,9 @@ function init() {
 function onWindowResize( event ) {
   w = 2048;
   h = 1024;
-  w = window.innerWidth;
-  h = window.innerHeight;
+  introSection = document.getElementById('intro-section');
+  w = introSection.offsetWidth;
+  h = introSection.offsetHeight;
   
   renderer.setSize( w, h );
   uniforms.u_resolution.value.x = renderer.domElement.width;
