@@ -16,8 +16,8 @@ function FeaturesBlocks() {
         <div className="py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl text-left pb-8">
-            <h3 className="dark:text-white h3 mb-4">Our core values</h3>
+          <div className="max-w-3xl text-left pb-10">
+            <h3 className="dark:text-white h3">Our core values</h3>
             {/* <p className="text-xl dark:text-white text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
 

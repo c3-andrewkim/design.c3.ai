@@ -13,8 +13,8 @@ function News() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
-        <div className="max-w-3xl text-left pb-12 md:pb-20">
-            <h3 className="dark:text-white h3 mb-4">Blogs</h3>
+        <div className="max-w-3xl text-left pb-16">
+            <h3 className="dark:text-white h3">Blogs</h3>
           </div>
 
           {/* Articles list */}

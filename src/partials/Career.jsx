@@ -53,7 +53,7 @@ function Career() {
             <h3 className="h3 mb-8 dark:text-white">Current Openings</h3>
             <p className='dark:text-white'>Join our world class design team and help shape the future of Enterprise AI…</p>
 
-            <div className="my-6 mt-20 grid gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="my-6 mt-14 grid gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
               <div>
                 <p className='dark-secondary-font-color font-bold text-sm mb-6'>PRODUCT DESIGN</p>

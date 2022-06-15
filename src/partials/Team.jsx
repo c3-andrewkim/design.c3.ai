@@ -26,7 +26,7 @@ function Team() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl pb-12 md:pb-20">
+          <div className="max-w-3xl pb-16">
             {/* <h2 className="h2 dark:text-white">Meet the Team</h2> */}
           <h3 className="dark:text-white h3">Meet the team</h3>
           </div>
