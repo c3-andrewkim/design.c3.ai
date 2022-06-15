@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -7,34 +6,12 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
-        <div className="">
-
-          {/* 1st block */}
-          <div className="">
-            <div className="mb-2">
-              {/* Logo */}
-              {/* <Link to="/" className="inline-block" aria-label="Cruip">
-                <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="footer-logo">
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect width="32" height="32" rx="16" fill="url(#footer-logo)" fillRule="nonzero" />
-                </svg>
-              </Link> */}
-            </div>
-          </div>
-
+        <div>
           {/* 4th block */}
           <div className="py-12 dark-secondary-font-color">
             <h6 className="font-medium mb-2 uppercase">About us</h6>
             <p className='text-sm'>C3.ai is a leading enterprise AI software provider for accelerating digital transformation.</p>
           </div>
-       
-
         </div>
 
         {/* Bottom area */}

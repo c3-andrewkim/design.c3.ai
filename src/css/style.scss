@@ -45,9 +45,7 @@ $aos-distance: 10px;
     position: absolute;
     z-index: -1;
     height: 90rem;
-    // transform: translateY(-620px);
     overflow: hidden;
-    // max-width: 100vw;
     
     @media screen and (max-width: 400px) {
         transform: translate(-240px, -620px);

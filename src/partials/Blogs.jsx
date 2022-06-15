@@ -1,11 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-
 import blogseries from '../images/blog-series.png';
-// import NewsImage02 from '../images/news-02.jpg';
-// import NewsImage03 from '../images/news-03.jpg';
-// import NewsAuthor01 from '../images/news-author-01.jpg';
-// import NewsAuthor02 from '../images/news-author-02.jpg';
 
 function Blogs() {
   return (

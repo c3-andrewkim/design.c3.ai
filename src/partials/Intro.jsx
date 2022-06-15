@@ -24,6 +24,7 @@ function Intro() {
                 <div>
                   <a className="main-cta btn text-black font-bold bg-white w-full sm:w-auto sm:ml-4" href="https://sfdesignweek.org/event/design-for-ai/" target="_blank" rel="noopener noreferrer">Join Us</a>
                 </div>
+                
               </div>
             </div>
           </div>
