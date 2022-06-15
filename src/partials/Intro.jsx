@@ -22,7 +22,7 @@ function Intro() {
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
 
                 <div>
-                  <a className="main-cta btn text-black font-bold bg-gray-900 bg-white w-full sm:w-auto sm:ml-4" href="https://sfdesignweek.org/event/design-for-ai/" target="_blank" rel="noopener noreferrer">Join Us</a>
+                  <a className="main-cta btn text-black font-bold bg-white w-full sm:w-auto sm:ml-4" href="https://sfdesignweek.org/event/design-for-ai/" target="_blank" rel="noopener noreferrer">Join Us</a>
                 </div>
               </div>
             </div>
