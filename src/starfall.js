@@ -5,7 +5,6 @@ the shader. The only thing to see here really is the uniforms sent to
 the shader. Apart from that all of the magic happens in the HTML view
 under the fragment shader.
 */
-export function starfall(){
 
 let container;
 let camera, scene, renderer;
@@ -202,5 +201,4 @@ function render(delta) {
   if(capturing) {
     capturer.capture( renderer.domElement );
   }
-}
 }
