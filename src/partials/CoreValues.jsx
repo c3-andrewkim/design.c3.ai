@@ -17,8 +17,8 @@ function CoreValues() {
 
           {/* Section header */}
           <div className="max-w-3xl text-left pb-10">
-            <h3 className="dark:text-white h3">Our core values</h3>
-            {/* <p className="text-xl dark:text-white text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
+            <h3 className="text-white h3">Our core values</h3>
+            {/* <p className="text-xl text-white text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
 
           {/* Items */}
@@ -30,7 +30,7 @@ function CoreValues() {
               <img className="relative" src={InnovationImage} width="80" height="80" alt="Innovation" />
               <div className="text-left pl-6 md:pl-10">
 
-              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Innovation</h4>
+              <h4 className="text-xl text-white font-bold leading-snug tracking-tight mb-1">Innovation</h4>
               <p className="dark-secondary-font-color">Our ambition is to solve problems that have never been solved before.</p>
               </div>
             </div>
@@ -41,7 +41,7 @@ function CoreValues() {
               <img className="relative" src={CuriosityImage} width="80" height="80" alt="Curiosity" />
               <div className="text-left pl-6 md:pl-10">
 
-              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
+              <h4 className="text-xl text-white font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
               <p className="dark-secondary-font-color">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
               </div>
             </div>
@@ -52,7 +52,7 @@ function CoreValues() {
               <img className="relative" src={IntegrityImage} width="80" height="80" alt="Integrity" />
               <div className="text-left pl-6 md:pl-10">
 
-              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Integrity</h4>
+              <h4 className="text-xl text-white font-bold leading-snug tracking-tight mb-1">Integrity</h4>
               <p className="dark-secondary-font-color">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
               </div>
             </div>
@@ -63,7 +63,7 @@ function CoreValues() {
               <img className="relative" src={CollectiveImage} width="80" height="80" alt="Collective" />
               <div className="text-left pl-6 md:pl-10">
                 
-              <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
+              <h4 className="text-xl text-white font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
               <p className="dark-secondary-font-color">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
               </div>
             </div>

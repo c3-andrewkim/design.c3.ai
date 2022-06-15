@@ -14,7 +14,7 @@ function Blogs() {
         <div className="py-12 md:py-20">
 
         <div className="max-w-3xl text-left pb-16">
-            <h3 className="dark:text-white h3">Blogs</h3>
+            <h3 className="text-white h3">Blogs</h3>
           </div>
 
           {/* Articles list */}
@@ -41,7 +41,7 @@ function Blogs() {
                   </div> */}
                   <span className='font-bold dark-secondary-font-color text-xs'>Feb 3, 2022</span>
                   <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <a target="_blank" rel="noopener noreferrer" href="https://medium.com/c3-ai-design/intro-to-c3-ai-design-blog-series-fff7fd0c78b6" className="hover:underline dark:text-white">Intro to AI design blog series</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://medium.com/c3-ai-design/intro-to-c3-ai-design-blog-series-fff7fd0c78b6" className="hover:underline text-white">Intro to AI design blog series</a>
                   </h3>
                 </header>
                 <footer className="text-sm flex items-center mt-4">
