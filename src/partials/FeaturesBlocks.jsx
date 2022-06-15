@@ -25,7 +25,7 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-6xl">
 
             {/* 1st item */}
-            <div className="relative flex flex-row items-center p-6 pl-0">
+            <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="150" data-aos-anchor="[data-aos-id-values]">
 
               <img className="relative" src={InnovationImage} width="80" height="80" alt="Innovation" />
               <div className="text-left pl-4 md:pl-10">
@@ -36,7 +36,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-row items-center p-6 pl-0">
+            <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="300" data-aos-anchor="[data-aos-id-values]">
              
               <img className="relative" src={CuriosityImage} width="80" height="80" alt="Curiosity" />
               <div className="text-left pl-4 md:pl-10">
@@ -47,7 +47,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-row items-center p-6 pl-0">
+            <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="450" data-aos-anchor="[data-aos-id-values]">
              
               <img className="relative" src={IntegrityImage} width="80" height="80" alt="Integrity" />
               <div className="text-left pl-4 md:pl-10">
@@ -58,7 +58,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-row items-center p-6 pl-0">
+            <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="600" data-aos-anchor="[data-aos-id-values]">
             
               <img className="relative" src={CollectiveImage} width="80" height="80" alt="Collective" />
               <div className="text-left pl-4 md:pl-10">
