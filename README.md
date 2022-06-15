@@ -12,6 +12,7 @@ This is a react.js single page application, utilizing github as version control.
 This github repo is then linked to a netlify account for CI/CD.
 Any push to the `main` branch will trigger a build and automatically deploy to the current domain (by default netlify generated this url https://gleaming-raindrop-ce5940.netlify.app).
 However, upon approval from C3.AI infosec team, we will be assigned the new subdomain of `design.c3.ai`. 
+https://docs.netlify.com/domains-https/custom-domains/
 Three.js, and starfall.js are inlined as scripts in index.html (to avoid referencing scripts on external CDNs or S3 buckets) to create our hero background animation.
 
 Note: Any hrefs linking to external sites have been given the rel attribute of `noopener noreferrer`.
