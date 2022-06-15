@@ -31,7 +31,7 @@ function Footer() {
           {/* 4th block */}
           <div className="py-12 dark-secondary-font-color">
             <h6 className="font-medium mb-2 uppercase">About us</h6>
-            <p>C3.ai is a leading enterprise AI software provider for accelerating digital transformation.</p>
+            <p className='text-sm'>C3.ai is a leading enterprise AI software provider for accelerating digital transformation.</p>
           </div>
        
 

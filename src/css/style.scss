@@ -70,5 +70,11 @@ $aos-distance: 10px;
 .team-image{
     width: 11rem;
     height: 17rem;
-    object-fit: cover
+    object-fit: cover;
+    opacity: 0.8;
+    transition: opacity .5s ease-out;
+}
+
+.team-image:hover{
+    opacity: 1;
 }

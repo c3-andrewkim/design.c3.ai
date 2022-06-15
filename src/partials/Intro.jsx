@@ -7,7 +7,7 @@ function Intro() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20 flex flex-col justify-center m-auto h-full">
 
           {/* Section header */}
-          <div className="max-w-3xl h-full mx-auto text-center pb-12 md:pb-16 h-max">
+          <div className="max-w-3xl h-full mx-auto text-center pb-12 md:pb-14 h-max">
             <p className="dark-secondary-font-color font-bold uppercase">June 24, 2022</p>
             <h1 className="text-white h1 mb-4">C3 AI Design Presents <br></br>SF Design Week</h1>
             <p className="md:text-xl text-md text-white">
