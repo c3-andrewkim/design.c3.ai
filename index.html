@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/src/favicons/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <script type="module" src="/src/main.jsx"></script>
 
     <!-- threemin.js -->
@@ -1121,7 +1121,9 @@ function(a,b){console.warn("THREE.Projector: .projectVector() is now vector.proj
 
         container.appendChild( renderer.domElement );
 
-        onWindowResize();
+        window.addEventListener('DOMContentLoaded', (event) => {
+            onWindowResize();
+        });
         window.addEventListener( 'resize', onWindowResize, false );
         
 
@@ -1159,7 +1161,6 @@ function(a,b){console.warn("THREE.Projector: .projectVector() is now vector.proj
         w = 2048;
         h = 1024;
         introSection = document.getElementById('intro-section');
-        console.log(introSection);
         w = introSection.offsetWidth;
         h = introSection.offsetHeight;
         
