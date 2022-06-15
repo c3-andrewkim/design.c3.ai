@@ -25,7 +25,7 @@ function Blogs() {
               <article className="flex flex-col h-full" data-aos="zoom-y-out">
                 <header>
                   <a target="_blank" rel="noopener noreferrer" href="https://medium.com/c3-ai-design/intro-to-c3-ai-design-blog-series-fff7fd0c78b6" className="block mb-6">
-                    <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0 rounded">
+                    <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0">
                       <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={blogseries} width="352" height="198" alt="News 01" />
                     </figure>
                   </a>
