@@ -9,15 +9,19 @@ import jason from '../images/jason.png';
 import jc from '../images/jc.png';
 import jeeyoung from '../images/jeeyoung.png';
 import peter from '../images/peter.png';
-// import tianyi from '../images/tianyi.png';
+import andrew from '../images/andrew.png';
 import yangyi from '../images/yangyi.png';
 import yujin from '../images/yujin.png';
+import eva from '../images/eva.png';
+
+import ivy from '../images/ivy.png';
+import visudha from '../images/visudha.png';
+import sooyeon from '../images/soo.png';
+// import eva from '../images/eva.png';
+
+import gianna from '../images/gianna.png';
+import beatrice from '../images/beatrice.png';
 import notpictured from '../images/notpictured.png';
-// import TeamMember09 from '../images/09.png';
-// import TeamMember09 from '../images/09.png';
-// import TeamMember09 from '../images/09.png';
-// import TeamMember09 from '../images/09.png';
-// import TeamMember09 from '../images/09.png';
 
 function Team() {
   return (
@@ -38,7 +42,7 @@ function Team() {
           
             <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="0" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className=" team-image mb-4" src={andrew} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Andrew Kim</h4>
                 <div className="dark-secondary-font-color font-medium mb-2">Design Engineer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
@@ -50,7 +54,7 @@ function Team() {
             
             <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="50" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className=" team-image mb-4" src={beatrice} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Beatrice Zhou</h4>
                 <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
@@ -86,7 +90,7 @@ function Team() {
 
             <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="200" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className=" team-image mb-4" src={eva} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Eva Luo</h4>
                 <div className="dark-secondary-font-color font-medium mb-2">Design Manager</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
@@ -112,7 +116,7 @@ function Team() {
           
             <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="300" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className=" team-image mb-4" src={gianna} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Gianna Kim</h4>
                 <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
@@ -151,7 +155,7 @@ function Team() {
           
             <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="450" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className=" team-image mb-4" src={ivy} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Ivy Lin</h4>
                 <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
@@ -200,7 +204,7 @@ function Team() {
             </div>
 
             
-            <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="650" data-aos-anchor="[data-aos-id-team]">
+            <div className="hidden py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="650" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Jueun Nam</h4>
@@ -213,7 +217,7 @@ function Team() {
             </div>
 
             
-            <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
+            <div className="hidden py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Nitya Devireddy</h4>
@@ -239,7 +243,7 @@ function Team() {
             </div>
 
             
-            <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="800" data-aos-anchor="[data-aos-id-team]">
+            <div className="hidden py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="800" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Robert Ye</h4>
@@ -254,7 +258,7 @@ function Team() {
             
             <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="850" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className=" team-image mb-4" src={sooyeon} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Sooyeon Hwang</h4>
                 <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
@@ -267,8 +271,8 @@ function Team() {
             
             <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="900" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
-                <h4 className="text-lg dark:text-white font-bold mb-1">Visuda Sathurappan</h4>
+              <img className=" team-image mb-4" src={visudha} alt="Team member 09" />
+                <h4 className="text-lg dark:text-white font-bold mb-1">Visudha Sathurappan</h4>
                 <div className="dark-secondary-font-color font-medium mb-2">Product Designer</div>
                 {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">
@@ -291,7 +295,7 @@ function Team() {
             </div>
 
             
-            <div className="py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
+            <div className="hidden py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className=" team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-lg dark:text-white font-bold mb-1">Yi-Le Zhang</h4>
