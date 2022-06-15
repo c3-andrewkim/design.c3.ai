@@ -1,6 +1,19 @@
-# C3.AI React
+# https://www.Design.C3.AI
 
-React landing page template designed by Cruip.
+React landing page for the C3.AI Design Team, featuring event announcements, core values, team introduction, and current job openings.
+
+This site does not require any external user input or forms, and does not make any external requests to APIs or other service.
+
+It is strictly a content based single page site, meant to display static information about the design team.
+
+## Architecture
+
+This is a react.js single page application, utilizing github as version control.
+This github repo is then linked to a netlify account for CI/CD.
+Any push to the `main` branch will trigger a build and automatically deploy to the current domain (by default netlify generated this url https://gleaming-raindrop-ce5940.netlify.app).
+However, upon approval from C3.AI infosec team, we will be assigned the new subdomain of `design.c3.ai`. 
+
+Note: Any hrefs linking to external sites have been given the rel attribute of `noopener noreferrer`.
 
 ## Project setup
 ```
@@ -18,9 +31,8 @@ npm run build
 ```
 
 ### Customize configuration
+We are using Vitejs which is a native ES Module based dev server as opposed to a traditional bundle based dev server.
 See [Configuration Reference](https://vitejs.dev/guide/).
 
 ## Support notes
-We are shipping our templates with a very basic React configuration to let you quickly get into the development process, but we don't discourage you from using any other configuration or framework built on the top of React. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
-
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+We are shipping our templates with a very basic React configuration to let you quickly get into the development process.
