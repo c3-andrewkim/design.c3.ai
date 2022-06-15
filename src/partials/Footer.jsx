@@ -38,7 +38,7 @@ function Footer() {
         </div>
 
         {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between py-4 md:py-10">
+        <div className="md:flex md:justify-between align-middle py-4 md:py-10">
 
           {/* Social links */}
           {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
@@ -66,16 +66,13 @@ function Footer() {
           </ul> */}
 
           {/* Copyrights note */}
-          <div className="text-sm dark-secondary-font-color mr-4">&copy; 2022 <span className='text-white'>C3.AI</span>, Inc. All rights reserved.</div>
 
-          <div className="text-sm dark:text-white flex justify-between w-80">
-              
-               <Link to="https://c3.ai/contact-us/" target="_blank" rel="noopener noreferrer" className="dark:text-white hover:underline transition duration-150 ease-in-out">Contact</Link>
-              <Link to="https://c3.ai/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="dark:text-white hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
-
-               <Link to="https://c3.ai/legal/terms-of-use/" target="_blank" rel="noopener noreferrer" className="dark:text-white hover:underline transition duration-150 ease-in-out">Terms of Use</Link>
-
-            </div>
+          <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-y-6 md:gap-y-0 sm:mb-6 dark:text-white">
+              <a href="https://c3.ai/contact-us/" target="_blank" rel="noopener noreferrer" className="dark:text-white hover:underline transition duration-150 ease-in-out">Contact</a>
+              <a href="https://c3.ai/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="sm:pr-6 dark:text-white hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
+              <a href="https://c3.ai/legal/terms-of-use/" target="_blank" rel="noopener noreferrer" className="dark:text-white hover:underline transition duration-150 ease-in-out">Terms of Use</a>
+          </div>
+          <div className="text-sm dark-secondary-font-color mt-6 md:mt-0 mr-4">&copy; 2022 <span className='text-white'>C3.AI</span>, Inc. All rights reserved.</div>
 
         </div>
 

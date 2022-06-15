@@ -28,7 +28,7 @@ function CoreValues() {
             <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="150" data-aos-anchor="[data-aos-id-values]">
 
               <img className="relative" src={InnovationImage} width="80" height="80" alt="Innovation" />
-              <div className="text-left pl-4 md:pl-10">
+              <div className="text-left pl-6 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Innovation</h4>
               <p className="dark-secondary-font-color">Our ambition is to solve problems that have never been solved before.</p>
@@ -39,7 +39,7 @@ function CoreValues() {
             <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="300" data-aos-anchor="[data-aos-id-values]">
              
               <img className="relative" src={CuriosityImage} width="80" height="80" alt="Curiosity" />
-              <div className="text-left pl-4 md:pl-10">
+              <div className="text-left pl-6 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Curiosity</h4>
               <p className="dark-secondary-font-color">We are self-learners, fulfilled by continuous knowledge acquisition to accelerate innovation.</p>
@@ -50,7 +50,7 @@ function CoreValues() {
             <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="450" data-aos-anchor="[data-aos-id-values]">
              
               <img className="relative" src={IntegrityImage} width="80" height="80" alt="Integrity" />
-              <div className="text-left pl-4 md:pl-10">
+              <div className="text-left pl-6 md:pl-10">
 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Integrity</h4>
               <p className="dark-secondary-font-color">We comport ourselves with unwavering ethical integrity, respect, and courtesy.</p>
@@ -61,7 +61,7 @@ function CoreValues() {
             <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="600" data-aos-anchor="[data-aos-id-values]">
             
               <img className="relative" src={CollectiveImage} width="80" height="80" alt="Collective" />
-              <div className="text-left pl-4 md:pl-10">
+              <div className="text-left pl-6 md:pl-10">
                 
               <h4 className="text-xl dark:text-white font-bold leading-snug tracking-tight mb-1">Collective Intelligence</h4>
               <p className="dark-secondary-font-color">The respect we have for the intelligence and capabilities of one another fosters boundless collaboration.</p>
