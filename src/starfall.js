@@ -194,7 +194,7 @@ function render(delta) {
   uniforms.u_mouse.value.x += ( newmouse.x - uniforms.u_mouse.value.x ) * divisor;
   uniforms.u_mouse.value.y += ( newmouse.y - uniforms.u_mouse.value.y ) * divisor;
   
-  uniforms.u_time.value = delta * 0.0001;
+  uniforms.u_time.value = delta * 0.0001;  // NOTE: this is how you slow down the speed
   renderer.render( scene, camera );
   renderTexture();
   
