@@ -4,7 +4,7 @@ import InnovationImage from '../images/innovation.svg';
 import CollectiveImage from '../images/collective.svg';
 import CuriosityImage from '../images/curiosity.svg';
 
-function FeaturesBlocks() {
+function CoreValues() {
   return (
     <section className="relative gray-95">
 
@@ -76,4 +76,4 @@ function FeaturesBlocks() {
   );
 }
 
-export default FeaturesBlocks;
+export default CoreValues;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import blogseries from '../images/blog-series.png';
 // import NewsImage02 from '../images/news-02.jpg';
@@ -7,7 +7,7 @@ import blogseries from '../images/blog-series.png';
 // import NewsAuthor01 from '../images/news-author-01.jpg';
 // import NewsAuthor02 from '../images/news-author-02.jpg';
 
-function News() {
+function Blogs() {
   return (
     <section className='gray-95'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -67,4 +67,4 @@ function News() {
   );
 }
 
-export default News;
+export default Blogs;
