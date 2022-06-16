@@ -13,12 +13,9 @@ import andrew from '../images/andrew.png';
 import yangyi from '../images/yangyi.png';
 import yujin from '../images/yujin.png';
 import eva from '../images/eva.png';
-
 import ivy from '../images/ivy.png';
 import visudha from '../images/visudha.png';
 import sooyeon from '../images/soo.png';
-// import eva from '../images/eva.png';
-
 import gianna from '../images/gianna.png';
 import beatrice from '../images/beatrice.png';
 import notpictured from '../images/notpictured.png';
@@ -32,12 +29,11 @@ function Team() {
           {/* Section header */}
           <div className="max-w-3xl pb-16">
             {/* <h2 className="h2 text-white">Meet the Team</h2> */}
-          <h3 className="text-white h3">Meet the team</h3>
+            <h3 className="text-white h3">Meet The Team</h3>
           </div>
 
-
           {/* Team members */}
-          <div className="mx-auto grid lg:grid-cols-6 sm:grid-cols-4 grid-cols-2 gap-x-16px md:gap-x-24px" data-aos-id-team>
+          <div id="team-grid" className="mx-auto grid lg:grid-cols-6 sm:grid-cols-4 grid-cols-2" data-aos-id-team>
 
           
             <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="0" data-aos-anchor="[data-aos-id-team]">
@@ -57,10 +53,6 @@ function Team() {
               <img className="team-image mb-4" src={beatrice} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Beatrice Zhou</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
             
@@ -69,10 +61,6 @@ function Team() {
                 <img className="team-image mb-4" src={clair} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Clair Sun</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -81,10 +69,6 @@ function Team() {
                 <img className="team-image mb-4" src={emily} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Emily Ho</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -93,10 +77,6 @@ function Team() {
               <img className="team-image mb-4" src={eva} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Eva Luo</h4>
                 <div className="dark-secondary-font-color text-sm">Design Manager</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -106,10 +86,6 @@ function Team() {
                 <img className="team-image mb-4" src={evie} alt="Team member 02" />
                 <h4 className="text-white font-bold text-base">Evie Xu</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -119,10 +95,6 @@ function Team() {
               <img className="team-image mb-4" src={gianna} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Gianna Kim</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -132,10 +104,6 @@ function Team() {
                 <img className="team-image mb-4" src={grace} alt="Team member 04" />
                 <h4 className="text-white font-bold text-base">Grace Guo</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -145,10 +113,6 @@ function Team() {
                 <img className="team-image mb-4" src={hans} alt="Team member 05" />
                 <h4 className="text-white font-bold text-base">Hans Gruten</h4>
                 <div className="dark-secondary-font-color text-sm">VP of Design</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -158,10 +122,6 @@ function Team() {
               <img className="team-image mb-4" src={ivy} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Ivy Lin</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -170,10 +130,6 @@ function Team() {
                 <img className="team-image mb-4" src={jason} alt="Team member 07" />
                 <h4 className="text-white font-bold text-base">Jason Azares</h4>
                 <div className="dark-secondary-font-color text-sm">Design Manager</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -183,10 +139,6 @@ function Team() {
                 <img className="team-image mb-4" src={jc} alt="Team member 08" />
                 <h4 className="text-white font-bold text-base">JC Hu</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -196,10 +148,6 @@ function Team() {
                 <img className="team-image mb-4" src={jeeyoung} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Jeeyoung Jung</h4>
                 <div className="dark-secondary-font-color text-sm">Design Manager</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -209,10 +157,6 @@ function Team() {
               <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Jueun Nam</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -222,10 +166,6 @@ function Team() {
               <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Nitya Devireddy</h4>
                 <div className="dark-secondary-font-color text-sm">Design Manager</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -235,10 +175,6 @@ function Team() {
                 <img className="team-image mb-4" src={peter} alt="Team member 07" />
                 <h4 className="text-white font-bold text-base">Peter Xu</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer Intern</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -248,10 +184,6 @@ function Team() {
               <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Robert Ye</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -261,10 +193,6 @@ function Team() {
               <img className="team-image mb-4" src={sooyeon} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Sooyeon Hwang</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -274,10 +202,6 @@ function Team() {
               <img className="team-image mb-4" src={visudha} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Visudha Sathurappan</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -287,10 +211,6 @@ function Team() {
                 <img className="team-image mb-4" src={yangyi} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Yangyi Xu</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -300,10 +220,6 @@ function Team() {
               <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Yi-Le Zhang</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
 
@@ -313,10 +229,6 @@ function Team() {
                 <img className="team-image mb-4" src={yujin} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Yujin Xue</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
-                {/* <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
-                <div className="text-sm text-gray-600 font-small">
-                  <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
-                </div> */}
               </div>
             </div>
           </div>

@@ -60,7 +60,7 @@ function Career() {
               </div>
               
               <div>
-                <p className='dark-secondary-font-color font-bold text-sm mb-6'>DESIGN SYSTEM</p>
+                <p className='dark-secondary-font-color font-bold text-sm mb-6'>DESIGN SYSTEMS</p>
               
               {/* 1st Item */}
               <a data-aos="zoom-y-out" data-aos-delay="400" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5627079002">

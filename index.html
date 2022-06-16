@@ -1122,6 +1122,7 @@ function(a,b){console.warn("THREE.Projector: .projectVector() is now vector.proj
         container.appendChild( renderer.domElement );
 
         window.addEventListener('DOMContentLoaded', (event) => {
+            console.log('DOM fully loaded and parsed');
             onWindowResize();
         });
         window.addEventListener( 'resize', onWindowResize, false );

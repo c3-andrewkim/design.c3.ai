@@ -76,3 +76,11 @@ $aos-distance: 10px;
 .team-image:hover{
     opacity: 1;
 }
+
+#team-grid {
+    grid-gap: 24px;
+
+    @media screen and (max-width: 768px) {
+        grid-gap: 16px;
+    }
+}

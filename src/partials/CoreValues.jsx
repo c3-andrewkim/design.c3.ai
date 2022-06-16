@@ -12,7 +12,7 @@ function CoreValues() {
 
           {/* Section header */}
           <div className="max-w-3xl text-left pb-10">
-            <h3 className="text-white h3">Our core values</h3>
+            <h3 className="text-white h3">Our Core Values</h3>
             {/* <p className="text-xl text-white text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
 
