@@ -65,9 +65,7 @@ $aos-distance: 10px;
     color: #919191
 }
 
-.team-image{
-    width: 11rem;
-    height: 17rem;
+.team-image {
     object-fit: cover;
     opacity: 0.8;
     transition: opacity .5s ease-out;
@@ -115,17 +113,24 @@ $aos-distance: 10px;
             height: 200px;
         }
     }
-
-    // @media screen and (max-width: 768px) {
-    //     grid-gap: 16px;
-    // }
-    // @media screen and (max-width: 768px) {
-    //     grid-gap: 16px;
-    // }
 }
 
 .footer-links {
     @media screen and (min-width: 768px) {
         grid-template-columns: 0.7fr 1fr 1fr;        
+    }
+}
+
+.visudha {
+    @media screen and (max-width: 420px) and (min-width: 338px) {
+        position: relative;
+        top: 10px;
+    }
+}
+
+.jeeyoung {
+    @media screen and (max-width: 323px) and (min-width: 313px) {
+        position: relative;
+        top: 10px;
     }
 }

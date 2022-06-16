@@ -143,7 +143,7 @@ function Team() {
             </div>
 
           
-            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="600" data-aos-anchor="[data-aos-id-team]">
+            <div className="jeeyoung pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="600" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
                 <img className="team-image mb-4" src={jeeyoung} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Jeeyoung Jung</h4>
@@ -197,7 +197,7 @@ function Team() {
             </div>
 
             
-            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="900" data-aos-anchor="[data-aos-id-team]">
+            <div className="visudha pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="900" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className="team-image mb-4" src={visudha} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Visudha Sathurappan</h4>
