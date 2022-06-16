@@ -33,7 +33,7 @@ function Team() {
           </div>
 
           {/* Team members */}
-          <div id="team-grid" className="mx-auto grid lg:grid-cols-6 sm:grid-cols-4 grid-cols-2" data-aos-id-team>
+          <div id="team-grid" className="mx-auto grid" data-aos-id-team>
 
           
             <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="0" data-aos-anchor="[data-aos-id-team]">
@@ -174,7 +174,7 @@ function Team() {
               <div className="flex flex-col">
                 <img className="team-image mb-4" src={peter} alt="Team member 07" />
                 <h4 className="text-white font-bold text-base">Peter Xu</h4>
-                <div className="dark-secondary-font-color text-sm">Product Designer Intern</div>
+                <div className="dark-secondary-font-color text-sm">Product Designer</div>
               </div>
             </div>
 

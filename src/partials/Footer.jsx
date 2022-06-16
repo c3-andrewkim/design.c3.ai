@@ -44,7 +44,7 @@ function Footer() {
 
           {/* Copyrights note */}
 
-          <div className="text-sm grid grid-cols-1 md:grid-cols-3 gap-y-6 md:gap-y-0 sm:mb-6 text-white">
+          <div className="footer-links text-sm grid grid-cols-1 gap-y-6 md:gap-y-0 sm:mb-6 text-white">
               <a href="https://c3.ai/contact-us/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline transition duration-150 ease-in-out">Contact</a>
               <a href="https://c3.ai/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="sm:pr-6 text-white hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
               <a href="https://c3.ai/legal/terms-of-use/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline transition duration-150 ease-in-out">Terms of Use</a>
