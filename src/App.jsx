@@ -155,7 +155,7 @@ function App() {
         const introSection = document.getElementById('intro-section');
         w = introSection.offsetWidth;
         h = introSection.offsetHeight;
-        console.log(w, h);
+        // console.log(w, h);
         
         renderer.setSize( w, h );
         uniforms.u_resolution.value.x = renderer.domElement.width;
