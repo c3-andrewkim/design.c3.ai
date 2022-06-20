@@ -4,7 +4,7 @@ function Intro() {
   return (
     <section id="intro-section">
       <div className="max-w-6xl mx-auto px-8 md:px-4 h-full">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20 flex flex-col justify-center m-auto h-full">
+        <div id="hero-container" className="pt-32 pb-12 md:pt-40 md:pb-20 flex flex-col justify-center m-auto h-full">
 
           {/* Section header */}
           <div className="max-w-3xl h-full mx-auto text-center pb-12 md:pb-14 h-max">
