@@ -44,13 +44,7 @@ $aos-distance: 10px;
 #starfall {
     position: absolute;
     z-index: -1;
-    height: 90rem;
     overflow: hidden;
-    
-    @media screen and (max-width: 400px) {
-        transform: translate(-240px, -620px);
-        max-width: 161vw;
-    }
 }
 
 .gray-95 {

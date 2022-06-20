@@ -4,7 +4,7 @@ import blogseries from '../images/blog-series.png';
 function Blogs() {
   return (
     <section className='gray-95 hidden'>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-8 md:px-4">
         <div className="py-12 md:py-20">
 
         <div className="max-w-3xl text-left pb-16">

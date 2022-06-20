@@ -3,7 +3,7 @@ import React from 'react';
 function Intro() {
   return (
     <section id="intro-section">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-full">
+      <div className="max-w-6xl mx-auto px-8 md:px-4 h-full">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20 flex flex-col justify-center m-auto h-full">
 
           {/* Section header */}

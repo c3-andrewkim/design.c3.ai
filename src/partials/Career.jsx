@@ -3,13 +3,13 @@ import React from 'react';
 function Career() {
   return (
     <section className='gray-100'>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-8 md:px-4">
         <div className="py-12 md:py-20">
 
           {/* Job list */}
           <div className="">
 
-            <h3 className="h3 mb-8 text-white">Current Openings</h3>
+            <h3 className="h3 pb-16 text-white">Current Openings</h3>
             <p className='text-white'>Join our world class design team and help shape the future of Enterprise AI…</p>
 
             <div className="my-6 mt-14 grid gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

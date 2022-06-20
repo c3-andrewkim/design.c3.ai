@@ -17,7 +17,7 @@ function CoreValues() {
           </div>
 
           {/* Items */}
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-6xl">
+          <div className="grid sm:gap-6 gap-2 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-6xl">
 
             {/* 1st item */}
             <div className="relative flex flex-row items-center p-6 pl-0" data-aos="zoom-y-out" data-aos-delay="150" data-aos-anchor="[data-aos-id-values]">
