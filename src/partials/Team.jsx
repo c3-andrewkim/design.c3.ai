@@ -22,7 +22,7 @@ import notpictured from '../images/notpictured.png';
 
 function Team() {
   return (
-    <section className="gray-100">
+    <section className="meet-the-team relative gray-100">
       <div className="max-w-6xl mx-auto px-8 md:px-4">
         <div className="py-12 md:py-20">
 

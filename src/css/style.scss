@@ -37,7 +37,11 @@ $aos-distance: 10px;
     height: 100vh;
     width: 100vw;
     position: fixed;
-    z-index: -1;
+    z-index: 1;
+}
+
+.what-we-make, .core-values, .meet-the-team, .current-openings, .footer {
+    z-index: 2;
 }
 
 .what-we-make {

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className='gray-100'>
+    <footer className='gray-100 footer relative'>
       <div className="max-w-6xl mx-auto px-8 md:px-4">
 
         {/* Top area: Blocks */}

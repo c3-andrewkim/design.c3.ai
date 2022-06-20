@@ -2,7 +2,7 @@ import React from 'react';
 
 function Career() {
   return (
-    <section className='gray-100'>
+    <section className='current-openings relative gray-100'>
       <div className="max-w-6xl mx-auto px-8 md:px-4">
         <div className="py-12 md:py-20">
 

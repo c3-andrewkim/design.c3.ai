@@ -6,7 +6,7 @@ import CuriosityImage from '../images/curiosity.svg';
 
 function CoreValues() {
   return (
-    <section className="relative gray-95">
+    <section className="core-values relative gray-95">
       <div className="relative max-w-6xl mx-auto px-8 md:px-4 sm:px-6">
         <div className="py-20">
 
