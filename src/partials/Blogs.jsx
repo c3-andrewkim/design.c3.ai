@@ -3,7 +3,7 @@ import blogseries from '../images/blog-series.png';
 
 function Blogs() {
   return (
-    <section className='gray-95 hidden'>
+    <section id="blogs" className='gray-95 hidden'>
       <div className="max-w-6xl mx-auto px-8 md:px-4">
         <div className="py-12 md:py-20">
 
