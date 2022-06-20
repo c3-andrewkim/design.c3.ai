@@ -152,9 +152,9 @@ function App() {
       function onWindowResize( event ) {
         w = 2048;
         h = 1024;
-        const introSection = document.getElementById('intro-section');
-        w = introSection.offsetWidth;
-        h = introSection.offsetHeight;
+        const heroSection = document.getElementById('hero-section');
+        w = heroSection.offsetWidth;
+        h = heroSection.offsetHeight;
         // console.log(w, h);
         
         renderer.setSize( w, h );
