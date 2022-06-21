@@ -1,24 +1,24 @@
 import React from 'react';
 
-import clair from '../images/clair.png';
-import emily from '../images/emily.png';
-import evie from '../images/evie.png';
-import grace from '../images/grace.png';
-import hans from '../images/hans.png';
-import jason from '../images/jason.png';
-import jc from '../images/jc.png';
-import jeeyoung from '../images/jeeyoung.png';
-import peter from '../images/peter.png';
-import andrew from '../images/andrew.png';
-import yangyi from '../images/yangyi.png';
-import yujin from '../images/yujin.png';
-import eva from '../images/eva.png';
-import ivy from '../images/ivy.png';
-import visudha from '../images/visudha.png';
-import sooyeon from '../images/soo.png';
-import gianna from '../images/gianna.png';
-import beatrice from '../images/beatrice.png';
-import notpictured from '../images/notpictured.png';
+import andrew from '../images/andrew.webp';
+import beatrice from '../images/beatrice.webp';
+import clair from '../images/clair.webp';
+import emily from '../images/emily.webp';
+import eva from '../images/eva.webp';
+import evie from '../images/evie.webp';
+import notpictured from '../images/notpictured.webp';
+import sooyeon from '../images/soo.webp';
+import gianna from '../images/gianna.webp';
+import grace from '../images/grace.webp';
+import hans from '../images/hans.webp';
+import ivy from '../images/ivy.webp';
+import jason from '../images/jason.webp';
+import jeeyoung from '../images/jeeyoung.webp';
+import jc from '../images/jc.webp';
+import peter from '../images/peter.webp';
+import visudha from '../images/visudha.webp';
+import yangyi from '../images/yangyi.webp';
+import yujin from '../images/yujin.webp';
 
 function Team() {
   return (
