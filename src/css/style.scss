@@ -128,17 +128,14 @@ $aos-distance: 10px;
     }
 }
 
-// for when there are long names that wrap to new line, offsetting top alignment with other team pics
-.visudha {
-    @media screen and (max-width: 412px) and (min-width: 330px) {
-        position: relative;
-        top: 10px;
-    }
-}
-
-.jeeyoung {
-    @media screen and (max-width: 315px) and (min-width: 305px) {
-        position: relative;
-        top: 10px;
+#team-grid {
+    div {
+        h4, div {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            -webkit-line-clamp: 1;
+            max-width: 35vw;
+        }
     }
 }

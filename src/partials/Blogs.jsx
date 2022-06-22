@@ -1,5 +1,5 @@
 import React from 'react';
-import blogseries from '../images/blog-series.png';
+import blogseries from '../images/blog-series.webp';
 
 function Blogs() {
   return (

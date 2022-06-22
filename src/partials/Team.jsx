@@ -6,6 +6,7 @@ import clair from '../images/clair.webp';
 import emily from '../images/emily.webp';
 import eva from '../images/eva.webp';
 import evie from '../images/evie.webp';
+import nitya from '../images/nitya.webp';
 import notpictured from '../images/notpictured.webp';
 import sooyeon from '../images/soo.webp';
 import gianna from '../images/gianna.webp';
@@ -15,7 +16,9 @@ import ivy from '../images/ivy.webp';
 import jason from '../images/jason.webp';
 import jeeyoung from '../images/jeeyoung.webp';
 import jc from '../images/jc.webp';
+import jueun from '../images/jueun.webp';
 import peter from '../images/peter.webp';
+import robert from '../images/robert.webp';
 import visudha from '../images/visudha.webp';
 import yangyi from '../images/yangyi.webp';
 import yujin from '../images/yujin.webp';
@@ -152,20 +155,20 @@ function Team() {
             </div>
 
             
-            <div className="hidden pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="650" data-aos-anchor="[data-aos-id-team]">
+            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="650" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className="team-image mb-4" src={jueun} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Jueun Nam</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
               </div>
             </div>
 
             
-            <div className="hidden pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
+            <div className="nitya pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className="team-image mb-4" src={nitya} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Nitya Devireddy</h4>
-                <div className="dark-secondary-font-color text-sm">Design Manager</div>
+                <div className="dark-secondary-font-color text-sm">Product Designer</div>
               </div>
             </div>
 
@@ -179,16 +182,16 @@ function Team() {
             </div>
 
             
-            <div className="hidden pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="800" data-aos-anchor="[data-aos-id-team]">
+            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="800" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className="team-image mb-4" src={robert} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Robert Ye</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
               </div>
             </div>
 
             
-            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="850" data-aos-anchor="[data-aos-id-team]">
+            <div className="soo pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="850" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className="team-image mb-4" src={sooyeon} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Sooyeon Hwang</h4>
