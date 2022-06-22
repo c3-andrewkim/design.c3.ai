@@ -74,6 +74,7 @@ $aos-distance: 10px;
     object-fit: cover;
     opacity: 0.8;
     transition: opacity .5s ease-out;
+    aspect-ratio: 10 / 14;
 }
 
 .team-image:hover{
