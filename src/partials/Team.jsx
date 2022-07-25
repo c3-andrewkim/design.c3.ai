@@ -22,6 +22,7 @@ import robert from '../images/robert.webp';
 import visudha from '../images/visudha.webp';
 import yangyi from '../images/yangyi.webp';
 import yujin from '../images/yujin.webp';
+import yile from '../images/yile.webp';
 
 function Team() {
   return (
@@ -218,9 +219,9 @@ function Team() {
             </div>
 
             
-            <div className="hidden pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
+            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
-              <img className="team-image mb-4" src={notpictured} alt="Team member 09" />
+              <img className="team-image mb-4" src={yile} alt="Team member 09" />
                 <h4 className="text-white font-bold text-base">Yi-Le Zhang</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
               </div>
