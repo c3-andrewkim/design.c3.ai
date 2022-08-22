@@ -70,19 +70,7 @@ function Blogs() {
               </article>
 
               {/* 3rd article */}
-              {/* <article className="flex flex-col h-full" data-aos="zoom-y-out">
-                <header>
-                  <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/introducing-c3-ai-design-blog-series" className="block mb-6">
-                    <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0">
-                      <img className="absolute inset-0 w-full h-full object-cover transform scale-105 hover:-translate-y-1 transition duration-700 ease-out" src={blogseries} width="352" height="198" alt="News 01" />
-                    </figure>
-                  </a>
-                  <span className='font-bold dark-secondary-font-color text-xs'>Feb 3, 2022</span>
-                  <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/introducing-c3-ai-design-blog-series" className="hover:underline text-white">Intro to AI design blog series</a>
-                  </h3>
-                </header>
-              </article> */}
+
 
             </div>
           </div>

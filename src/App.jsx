@@ -19,8 +19,18 @@ import PageNotFound from './pages/PageNotFound';
 function App() {
 
   const location = useLocation();
-
+  
   useEffect(() => {
+    const { hash } = window.location;
+    const elementToScroll = document.getElementById(hash?.replace("#", ""));
+
+    if (!elementToScroll) return;
+
+    window.scrollTo({
+      top: elementToScroll.offsetTop,
+      behavior: "smooth"
+    });
+
     AOS.init({
       once: true,
       disable: 'phone',
@@ -29,9 +39,7 @@ function App() {
     });
     // eslint-disable-next-line no-unused-vars
     const sticky = new Sticky('[data-sticky]');
-  });
 
-  useEffect(() => {
     document.querySelector('html').style.scrollBehavior = 'auto'
     window.scroll({ top: 0 })
     document.querySelector('html').style.scrollBehavior = ''
@@ -217,6 +225,7 @@ function App() {
 
 
   }, [location.pathname]); // triggered on route change
+
 
   return (
     <>
