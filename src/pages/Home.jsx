@@ -23,13 +23,14 @@ function Home() {
         {/*  Page sections */}
         <Hero />
         
+        
+        <Blogs />
         <WhatWeMake />
 
         <CoreValues />
 
         <Team />
 
-        <Blogs />
 
         <Career />
 

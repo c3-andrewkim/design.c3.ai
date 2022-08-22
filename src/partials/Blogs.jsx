@@ -16,6 +16,22 @@ function Blogs() {
           <div className="max-w-sm md:max-w-none">
             <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
 
+
+              {/* 2nd article */}
+              <article className="flex flex-col h-full" data-aos="zoom-y-out">
+                <header>
+                  <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/how-design-platforms-improve-engagement-ai-beginners" className="block mb-6">
+                    <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0">
+                      <img className="aspect-video absolute w-full h-full transform hover:-translate-y-1 transition duration-700 ease-out" src={howto} width="352" height="198" alt="How to article thumbnail" />
+                    </figure>
+                  </a>
+                  <span className='font-bold dark-secondary-font-color text-base'>August 8, 2022</span>
+                  <h3 className="text-lg font-bold leading-snug tracking-tight">
+                    <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/how-design-platforms-improve-engagement-ai-beginners" className="hover:underline text-white">How to Design Platforms that Improve Engagement with AI Beginners</a>
+                  </h3>
+                </header>
+              </article>
+
               {/* 1st article */}
               <article className="flex flex-col h-full" data-aos="zoom-y-out">
                 <header>
@@ -25,7 +41,7 @@ function Blogs() {
                     </figure>
                   </a>
                   {/* <div className="mb-3">
-                    <ul className="flex flex-wrap text-xs font-medium -m-1">
+                    <ul className="flex flex-wrap text-base font-medium -m-1">
                       <li className="m-1">
                         <a className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out" href="#0">Case studies</a>
                       </li>
@@ -34,8 +50,8 @@ function Blogs() {
                       </li>
                     </ul>
                   </div> */}
-                  <span className='font-bold dark-secondary-font-color text-xs'>February 3, 2022</span>
-                  <h3 className="text-xl font-bold leading-snug tracking-tight">
+                  <span className='font-bold dark-secondary-font-color text-base'>February 3, 2022</span>
+                  <h3 className="text-lg font-bold leading-snug tracking-tight">
                     <a target="_blank" rel="noopener noreferrer" href="https://medium.com/c3-ai-design/intro-to-c3-ai-design-blog-series-fff7fd0c78b6" className="hover:underline text-white">Intro to AI design blog series</a>
                   </h3>
                 </header>
@@ -51,21 +67,6 @@ function Blogs() {
                     <a className="font-medium hover:underline dark-secondary-font-color" href="#0">Artificial Intelligence</a>
                   </div>
                 </footer> */}
-              </article>
-
-              {/* 2nd article */}
-              <article className="flex flex-col h-full" data-aos="zoom-y-out">
-                <header>
-                  <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/how-design-platforms-improve-engagement-ai-beginners" className="block mb-6">
-                    <figure className="relative h-0 pb-9/16 overflow-hidden translate-z-0">
-                      <img className="aspect-video absolute w-full h-full transform hover:-translate-y-1 transition duration-700 ease-out" src={howto} width="352" height="198" alt="How to article thumbnail" />
-                    </figure>
-                  </a>
-                  <span className='font-bold dark-secondary-font-color text-xs'>August 8, 2022</span>
-                  <h3 className="text-xl font-bold leading-snug tracking-tight">
-                    <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/how-design-platforms-improve-engagement-ai-beginners" className="hover:underline text-white">How to Design Platforms that Improve Engagement with AI Beginners</a>
-                  </h3>
-                </header>
               </article>
 
               {/* 3rd article */}
