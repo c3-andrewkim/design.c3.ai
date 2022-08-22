@@ -21,16 +21,6 @@ function App() {
   const location = useLocation();
   
   useEffect(() => {
-    const { hash } = window.location;
-    const elementToScroll = document.getElementById(hash?.replace("#", ""));
-
-    if (!elementToScroll) return;
-
-    window.scrollTo({
-      top: elementToScroll.offsetTop,
-      behavior: "smooth"
-    });
-
     AOS.init({
       once: true,
       disable: 'phone',
