@@ -7,7 +7,6 @@ import emily from '../images/emily.webp';
 import eva from '../images/eva.webp';
 import evie from '../images/evie.webp';
 import nitya from '../images/nitya.webp';
-import notpictured from '../images/notpictured.webp';
 import sooyeon from '../images/soo.webp';
 import gianna from '../images/gianna.webp';
 import grace from '../images/grace.webp';
@@ -17,7 +16,7 @@ import jason from '../images/jason.webp';
 import jeeyoung from '../images/jeeyoung.webp';
 import jc from '../images/jc.webp';
 import jueun from '../images/jueun.webp';
-import peter from '../images/peter.webp';
+// import peter from '../images/peter.webp';
 import robert from '../images/robert.webp';
 import visudha from '../images/visudha.webp';
 import yangyi from '../images/yangyi.webp';
@@ -175,13 +174,13 @@ function Team() {
             </div>
 
           
-            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="750" data-aos-anchor="[data-aos-id-team]">
+            {/* <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="750" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
                 <img className="team-image mb-4" src={peter} alt="Team member 16" />
                 <h4 className="text-white font-bold text-base">Peter Xu</h4>
                 <div className="dark-secondary-font-color text-sm">Product Designer</div>
               </div>
-            </div>
+            </div> */}
 
             
             <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="800" data-aos-anchor="[data-aos-id-team]">
@@ -202,13 +201,13 @@ function Team() {
             </div>
 
 
-            {/* <div className="pb-8 sm:pb-8 hidden" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
+            <div className="pb-8 sm:pb-8 hidden" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className="team-image mb-4" src={stephanie} alt="Team member 21" />
                 <h4 className="text-white font-bold text-base">Stephanie Lee</h4>
                 <div className="dark-secondary-font-color text-sm">UX Researcher</div>
               </div>
-            </div> */}
+            </div>
 
             
             <div className="visudha pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="900" data-aos-anchor="[data-aos-id-team]">
