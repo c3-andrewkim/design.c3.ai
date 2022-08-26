@@ -201,7 +201,7 @@ function Team() {
             </div>
 
 
-            <div className="pb-8 sm:pb-8 hidden" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
+            <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay="1000" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col">
               <img className="team-image mb-4" src={stephanie} alt="Team member 21" />
                 <h4 className="text-white font-bold text-base">Stephanie Lee</h4>
