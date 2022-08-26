@@ -22,7 +22,7 @@ import visudha from '../images/visudha.webp';
 import yangyi from '../images/yangyi.webp';
 import yujin from '../images/yujin.webp';
 import yile from '../images/yile.webp';
-// import stephanie from '../images/stephanie.webp';
+import stephanie from '../images/stephanie.webp';
 
 function Team() {
   return (
