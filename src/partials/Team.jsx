@@ -23,7 +23,7 @@ import yile from '../images/yile.webp';
 
 function Team() {
   const members = [
-    { photo: andrew, name: 'Andrew Kim', position: 'Design Engineer' },
+    { photo: andrew, name: 'Andrew Kim', position: 'Design Technologist' },
     { photo: beatrice, name: 'Beatrice Zhou', position: 'Product Designer'},
     { photo: clair, name: 'Clair Sun', position: 'Product Designer'},
     { photo: eva, name: 'Eva Luo', position: 'Design Manager'}, 
