@@ -70,6 +70,10 @@ $aos-distance: 10px;
     color: #919191
 }
 
+.teammate-wrapper {
+    width: 100%;
+}
+
 .team-image {
     object-fit: cover;
     opacity: 0.8;
@@ -129,8 +133,8 @@ $aos-distance: 10px;
     }
 }
 
-@media screen and (min-width: 10px) and (max-width: 639px) {
-    .team-image {
-        max-width: 39.5vw;
-    }
-}
+// @media screen and (min-width: 10px) and (max-width: 639px) {
+//     .team-image {
+//         max-width: 39.5vw;
+//     }
+// }

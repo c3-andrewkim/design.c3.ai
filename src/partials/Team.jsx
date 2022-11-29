@@ -46,7 +46,7 @@ function Team() {
   ];
 
   const teammates = members.map((member, index) => 
-    <div className="pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay={index * 50} data-aos-anchor="[data-aos-id-team]">
+    <div className="teammate-wrapper pb-8 sm:pb-8" data-aos="zoom-y-out" data-aos-delay={index * 50} data-aos-anchor="[data-aos-id-team]">
       <div className="flex flex-col">
       <img className="team-image mb-4" src={member.photo} alt={`Team member ${index + 1}`} />
         <h4 className="text-white font-bold text-base">{member.name}</h4>
