@@ -14,7 +14,6 @@ import jason from '../images/jason.webp';
 import jeeyoung from '../images/jeeyoung.webp';
 import jc from '../images/jc.webp';
 import robert from '../images/robert.webp';
-import saptarshi from '../images/saptarshi.webp';
 import stephanie from '../images/stephanie.webp';
 import visudha from '../images/visudha.webp';
 import yangyi from '../images/yangyi.webp';
@@ -37,7 +36,6 @@ function Team() {
     { photo: jc, name: 'JC Hu', position: 'Product Designer'}, 
     { photo: nitya, name: 'Nitya Devireddy', position:'Product Designer' },
     { photo: robert, name: 'Robert Ye' , position: 'Product Designer'}, 
-    { photo: saptarshi, name: 'Saptarshi Mandal', position:'UX Researcher' }, 
     { photo: stephanie, name: 'Stephanie Lee', position: 'UX Researcher'}, 
     { photo: visudha, name: 'Visudha Sathurappan', position: 'Product Designer' },
     { photo: yangyi, name: 'Yangyi Xu', position: 'Product Designer'}, 
