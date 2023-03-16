@@ -1,13 +1,13 @@
 import React from 'react';
 
 import andrew from '../images/andrew.webp';
+// import anirudh from '../images/anirudh.webp';
 import beatrice from '../images/beatrice.webp';
 import clair from '../images/clair.webp';
 import evie from '../images/evie.webp';
 import nitya from '../images/nitya.webp';
 import gianna from '../images/gianna.webp';
 import grace from '../images/grace.webp';
-import hans from '../images/hans.webp';
 import ivy from '../images/ivy.webp';
 import jae from '../images/jae.webp';
 import jason from '../images/jason.webp';
@@ -23,12 +23,13 @@ import yile from '../images/yile.webp';
 function Team() {
   const members = [
     { photo: andrew, name: 'Andrew Kim', position: 'Design Technologist' },
+    // { photo: anirudh, name: 'Anirudh Choudhary', position: 'Product Manager' },
     { photo: beatrice, name: 'Beatrice Zhou', position: 'Product Designer'},
     { photo: clair, name: 'Clair Sun', position: 'Product Designer'},
     { photo: evie, name: 'Evie Xu', position: 'Product Designer' },
     { photo: gianna, name: 'Gianna Kim', position: 'Product Designer'}, 
     { photo: grace, name: 'Grace Guo' , position: 'Product Designer'}, 
-    { photo: hans, name: 'Hans Guntren', position: 'VP of Design'}, 
+    // { photo: awef, name: 'awef', position: 'VP of Design'}, 
     { photo: ivy, name: 'Ivy Lin', position: 'Product Designer'}, 
     { photo: jae, name: 'Jae Kim', position: 'Product Designer'}, 
     { photo: jason, name: 'Jason Azares', position:'Design Manager' }, 
