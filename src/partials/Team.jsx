@@ -24,7 +24,6 @@ function Team() {
   const members = [
     { photo: andrew, name: 'Andrew Kim', position: 'Design Technologist' },
     // { photo: anirudh, name: 'Anirudh Choudhary', position: 'Product Manager' },
-    { photo: beatrice, name: 'Beatrice Zhou', position: 'Product Designer'},
     { photo: clair, name: 'Clair Sun', position: 'Product Designer'},
     { photo: evie, name: 'Evie Xu', position: 'Product Designer' },
     { photo: gianna, name: 'Gianna Kim', position: 'Product Designer'}, 
@@ -37,7 +36,6 @@ function Team() {
     { photo: jc, name: 'JC Hu', position: 'Product Designer'}, 
     { photo: nitya, name: 'Nitya Devireddy', position:'Product Designer' },
     { photo: robert, name: 'Robert Ye' , position: 'Product Designer'}, 
-    { photo: stephanie, name: 'Stephanie Lee', position: 'UX Researcher'}, 
     { photo: visudha, name: 'Visudha Sathurappan', position: 'Product Designer' },
     // { photo: yangyi, name: 'Yangyi Xu', position: 'Product Designer'}, 
     { photo: yujin, name: 'Yujin Xue', position: 'Product Designer'}, 
