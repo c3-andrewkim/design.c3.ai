@@ -17,6 +17,11 @@ function Career() {
               <div>
                 <p className='dark-secondary-font-color font-bold text-sm mb-6'>PRODUCT DESIGN</p>
                 
+                <a data-aos="zoom-y-out" data-aos-delay="100" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6683823002">
+                  <div className="font-medium">Senior Director, Product Design</div>
+                  
+                </a>
+
                 {/* <a data-aos="zoom-y-out" data-aos-delay="0" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093878002">
                   <div className="font-medium">Director, AI Product Innovation</div>
                   
@@ -28,10 +33,6 @@ function Career() {
                 
               </a> */}
               
-              <a data-aos="zoom-y-out" data-aos-delay="100" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6231231002">
-                <div className="font-medium">Lead Product Designer</div>
-                
-              </a>
               
               {/* <a data-aos="zoom-y-out" data-aos-delay="150" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6093935002">
                 <div className="font-medium">Senior Product Designer, C3 AI CRM</div>
@@ -53,10 +54,10 @@ function Career() {
                 
               </a>
 
-              <a data-aos="zoom-y-out" data-aos-delay="250" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6345007002">
+              {/* <a data-aos="zoom-y-out" data-aos-delay="250" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=6345007002">
                 <div className="font-medium">User Experience – Intern (Summer 2023)</div>
                 
-              </a>
+              </a> */}
               
               {/* <a data-aos="zoom-y-out" data-aos-delay="300" data-aos-anchor="[data-aos-id-jobs]" target="_blank" rel="noopener noreferrer" className="flex justify-between hover:underline mb-6 transition duration-300 ease-in-out text-white mb-3" href="https://c3.ai/job-description/?gh_jid=5029238002">
                 <div className="font-medium">Product Designer</div>

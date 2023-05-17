@@ -2,7 +2,6 @@ import React from 'react';
 
 import andrew from '../images/andrew.webp';
 // import anirudh from '../images/anirudh.webp';
-import beatrice from '../images/beatrice.webp';
 import clair from '../images/clair.webp';
 import evie from '../images/evie.webp';
 import nitya from '../images/nitya.webp';
@@ -14,7 +13,6 @@ import jason from '../images/jason.webp';
 import jeeyoung from '../images/jeeyoung.webp';
 import jc from '../images/jc.webp';
 import robert from '../images/robert.webp';
-import stephanie from '../images/stephanie.webp';
 import visudha from '../images/visudha.webp';
 // import yangyi from '../images/yangyi.webp';
 import yujin from '../images/yujin.webp';
