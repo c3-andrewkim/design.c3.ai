@@ -8,7 +8,7 @@ function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl h-full mx-auto text-center pb-12 h-max">
-            {/* <p className="hero-date dark-secondary-font-color font-bold uppercase mb-6">June 24, 2022</p> */}
+            {/* <p className="hero-date dark-secondary-font-color font-bold uppercase mb-6">June 24, 2023</p> */}
             <h1 className="text-white h1 mb-4">Designing the Future of <br></br>Digital Transformation and <br></br> Enterprise AI</h1>
             <p className="md:text-xl text-md text-white">
             {/* Bringing leaders in UX, Data Science and Machine Learning together to discuss the latest trends in Enterprise AI. Join our world class design team, and help create the future of Enterprise AI. */}

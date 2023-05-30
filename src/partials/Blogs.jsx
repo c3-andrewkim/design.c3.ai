@@ -25,7 +25,7 @@ function Blogs() {
                       <img className="aspect-video absolute w-full h-full transform hover:-translate-y-1 transition duration-700 ease-out" src={howto} width="352" height="198" alt="How to article thumbnail" />
                     </figure>
                   </a>
-                  <span className='font-bold dark-secondary-font-color text-base'>August 8, 2022</span>
+                  <span className='font-bold dark-secondary-font-color text-base'>August 8, 2023</span>
                   <h3 className="text-lg font-bold leading-snug tracking-tight">
                     <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/how-design-platforms-improve-engagement-ai-beginners" className="hover:underline text-white">How to Design Platforms that Improve Engagement with AI Beginners</a>
                   </h3>
@@ -50,7 +50,7 @@ function Blogs() {
                       </li>
                     </ul>
                   </div> */}
-                  <span className='font-bold dark-secondary-font-color text-base'>February 3, 2022</span>
+                  <span className='font-bold dark-secondary-font-color text-base'>February 3, 2023</span>
                   <h3 className="text-lg font-bold leading-snug tracking-tight">
                     <a target="_blank" rel="noopener noreferrer" href="https://developer.c3.ai/blog/design-blog-series/introducing-c3-ai-design-blog-series" className="hover:underline text-white">Intro to AI design blog series</a>
                   </h3>
