@@ -4,7 +4,6 @@ import andrew from '../images/andrew.webp';
 // import anirudh from '../images/anirudh.webp';
 import clair from '../images/clair.webp';
 import evie from '../images/evie.webp';
-import nitya from '../images/nitya.webp';
 import gianna from '../images/gianna.webp';
 import grace from '../images/grace.webp';
 import ivy from '../images/ivy.webp';
@@ -12,7 +11,10 @@ import jae from '../images/jae.webp';
 import jason from '../images/jason.webp';
 import jeeyoung from '../images/jeeyoung.webp';
 import jc from '../images/jc.webp';
+import nitya from '../images/nitya.webp';
+import peter from '../images/peter.webp';
 import robert from '../images/robert.webp';
+import soo from '../images/soo.webp';
 import visudha from '../images/visudha.webp';
 // import yangyi from '../images/yangyi.webp';
 import yujin from '../images/yujin.webp';
@@ -33,7 +35,9 @@ function Team() {
     { photo: jeeyoung, name:'Jeeyoung Jung', position: 'Design Manager'}, 
     { photo: jc, name: 'JC Hu', position: 'Product Designer'}, 
     { photo: nitya, name: 'Nitya Devireddy', position:'Product Designer' },
+    { photo: peter, name: 'Peter Xu', position:'Product Designer' },
     { photo: robert, name: 'Robert Ye' , position: 'Product Designer'}, 
+    { photo: soo, name: 'Soo Hwang' , position: 'Product Designer'}, 
     { photo: visudha, name: 'Visudha Sathurappan', position: 'Product Designer' },
     // { photo: yangyi, name: 'Yangyi Xu', position: 'Product Designer'}, 
     { photo: yujin, name: 'Yujin Xue', position: 'Product Designer'}, 
