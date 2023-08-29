@@ -1,7 +1,7 @@
 import React from 'react';
 
 import andrew from '../images/andrew.webp';
-// import anirudh from '../images/anirudh.webp';
+import anirudh from '../images/anirudh.webp';
 import clair from '../images/clair.webp';
 import evie from '../images/evie.webp';
 import gianna from '../images/gianna.webp';
@@ -23,7 +23,7 @@ import yile from '../images/yile.webp';
 function Team() {
   const members = [
     { photo: andrew, name: 'Andrew Kim', position: 'Design Technologist' },
-    // { photo: anirudh, name: 'Anirudh Choudhary', position: 'Product Manager' },
+    { photo: anirudh, name: 'Anirudh Choudhary', position: 'Product Manager' },
     { photo: clair, name: 'Clair Sun', position: 'Product Designer'},
     { photo: evie, name: 'Evie Xu', position: 'Product Designer' },
     { photo: gianna, name: 'Gianna Kim', position: 'Product Designer'}, 
