@@ -2,6 +2,8 @@ import React from 'react';
 
 import andrew from '../images/andrew.webp';
 import anirudh from '../images/anirudh.webp';
+import braulio from '../images/braulio.webp';
+import cesar from '../images/cesar.webp';
 import clair from '../images/clair.webp';
 import evie from '../images/evie.webp';
 import gianna from '../images/gianna.webp';
@@ -16,7 +18,6 @@ import peter from '../images/peter.webp';
 import robert from '../images/robert.webp';
 import soo from '../images/soo.webp';
 import visudha from '../images/visudha.webp';
-// import yangyi from '../images/yangyi.webp';
 import yujin from '../images/yujin.webp';
 import yile from '../images/yile.webp';
 
@@ -24,12 +25,14 @@ function Team() {
   const members = [
     { photo: andrew, name: 'Andrew Kim', position: 'Design Technologist' },
     { photo: anirudh, name: 'Anirudh Choudhary', position: 'Product Manager' },
+    { photo: braulio, name: 'Braulio Garibaldi', position: 'Product Designer'},
+    { photo: cesar, name: 'Cesar Gomez', position: 'Product Designer'},
     { photo: clair, name: 'Clair Sun', position: 'Product Designer'},
     { photo: evie, name: 'Evie Xu', position: 'Product Designer' },
     { photo: gianna, name: 'Gianna Kim', position: 'Product Designer'}, 
     { photo: grace, name: 'Grace Guo' , position: 'Product Designer'}, 
     // { photo: awef, name: 'awef', position: 'VP of Design'}, 
-    { photo: ivy, name: 'Ivy Lin', position: 'Product Designer'}, 
+    { photo: ivy, name: 'Ivy Lin', position: 'Design Manager'}, 
     { photo: jae, name: 'Jae Kim', position: 'Product Designer'}, 
     { photo: jason, name: 'Jason Azares', position:'Design Manager' }, 
     { photo: jeeyoung, name:'Jeeyoung Jung', position: 'Design Manager'}, 
@@ -39,9 +42,8 @@ function Team() {
     { photo: robert, name: 'Robert Ye' , position: 'Product Designer'}, 
     { photo: soo, name: 'Soo Hwang' , position: 'Product Designer'}, 
     { photo: visudha, name: 'Visudha Sathurappan', position: 'Product Designer' },
-    // { photo: yangyi, name: 'Yangyi Xu', position: 'Product Designer'}, 
     { photo: yujin, name: 'Yujin Xue', position: 'Product Designer'}, 
-    { photo: yile, name: 'Yi-Le Zhang' , position: 'UX Researcher' }
+    { photo: yile, name: 'Yi-Le Zhang' , position: 'Product Designer' }
   ];
 
   const teammates = members.map((member, index) => 
