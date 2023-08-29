@@ -40,6 +40,7 @@ function Team() {
     { photo: nitya, name: 'Nitya Devireddy', position:'Product Designer' },
     { photo: peter, name: 'Peter Xu', position:'Product Designer' },
     { photo: robert, name: 'Robert Ye' , position: 'Product Designer'}, 
+    { photo: shane, name: 'Shane Berger' , position: 'Product Designer'}, 
     { photo: soo, name: 'Soo Hwang' , position: 'Product Designer'}, 
     { photo: visudha, name: 'Visudha Sathurappan', position: 'Product Designer' },
     { photo: yujin, name: 'Yujin Xue', position: 'Product Designer'}, 
